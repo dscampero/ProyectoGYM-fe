@@ -5,9 +5,7 @@ import LessonsScreen from '../pages/LessonsScreen'
 const AppRoutes = () => {
     return (
         <Router>
-       <Switch>
-           <Route component={LessonsScreen}/>
-        </Switch>
+        <Route component={LessonsScreen}/>
         </Router>
     )
 }

@@ -1,0 +1,72 @@
+/* Navbar Lessons */
+.divsb{
+    border: 10px;
+}
+.titulo{
+    color: #10c3d9;
+}
+.titulo2{
+    color:white;
+}
+.botonhorarios{
+    
+    background-color :#ee256c;
+}
+.botonhorariostittle{
+    text-decoration: none;
+    color:#ffd900;
+}
+.colorbutton1{
+    background-color: orangered;
+}
+
+.fondobutton11{
+
+    background-image: url(./helpers/fondos_lessons/fondo1.png) ;
+   
+}
+.colorbutton2{
+    background-color: #10c3d9;
+}
+.fondobutton22{
+
+    background-image: url(./helpers/fondos_lessons/fondo2.png) ;
+}   
+.colorbutton3{
+    background-color: #ffd900;
+
+}
+.fondobutton33{
+
+    background-image: url(./helpers/fondos_lessons/fondo3.png) ;
+}   
+.colorbutton4{
+    background-color: #ee256c;
+}
+.fondobutton44{
+
+    background-image: url(./helpers/fondos_lessons/fondo4.png) ;
+}   
+.colorbutton5{
+    background-color: #05B8B2;
+
+}
+.fondobutton55{
+
+    background-image: url(./helpers/fondos_lessons/fondo5.png) ;
+}   
+.colorbutton6{
+    background-color: #95C543;
+}
+.fondobutton66{
+
+    background-image: url(./helpers/fondos_lessons/fondo6.png) ;
+}   
+.colorbutton7{
+    background-color: #7D2A8F;
+}
+.fondobutton77{
+
+    background-image: url(./helpers/fondos_lessons/fondo7.png) ;
+}   
+
