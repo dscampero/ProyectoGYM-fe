@@ -1,7 +1,10 @@
 import React from 'react';
+import HomeNavbar from '../components/HomeNavbar';
 
 const HomeScreen = () => {
-  return <div>Este es el home x3</div>;
+  return <div>
+    <HomeNavbar/>
+  </div>;
 };
 
 export default HomeScreen;
