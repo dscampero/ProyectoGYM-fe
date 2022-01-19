@@ -70,3 +70,29 @@
     background-image: url(./helpers/fondos_lessons/fondo7.png) ;
 }   
 
+/* Boton mira el video */
+
+.borde2{
+    border-color: #10c3d9;
+    color:#10c3d9;
+}
+.borde3{
+    border-color:#ee256c;
+    color:#ee256c;
+}
+.borde4{
+    border-color:#95C543;
+    color:#95C543;
+}
+.borde5{
+    border-color:#7D2A8F;
+    color:#7D2A8F;
+}
+.borde6{
+    border-color:#ffd900;
+    color:#ffd900;
+}
+.borde7{
+    border-color:#05B8B2;
+    color:#05B8B2;
+}
