@@ -18,13 +18,13 @@ const LessonsNavbar = () => {
             </div>
             </div>
             <div className="btn-group col-12 row-cols-md-3 " role="group" aria-label="Basic example">
-              <a type="button" className="btn colorbutton1 fs-5 titulo2 " href="#scrollspyHeading1">Entrenamiento Funcional</a>
-              <a type="button" className="btn colorbutton2 fs-5 titulo2" href="#scrollspyHeading2">Aero Local</a>
-              <a type="button" className="btn colorbutton4 fs-5 titulo2" href="#scrollspyHeading3">Aero Combat</a>
-              <a type="button" className="btn colorbutton6 fs-5 titulo2" href="#scrollspyHeading4">Ritmos</a>
-              <a type="button" className="btn colorbutton7 fs-5 titulo2" href="#scrollspyHeading5">Yoga</a>
-              <a type="button" className="btn colorbutton3 fs-5 titulo2" href="#scrollspyHeading6">Abdominales</a>
-              <a type="button" className="btn colorbutton5 fs-5 titulo2" href="#scrollspyHeading7">Estiramiento</a>
+              <a type="button" className="btn colorbutton1 fs-6 titulo2 " href="#scrollspyHeading1">Entrenamiento Funcional</a>
+              <a type="button" className="btn colorbutton2 fs-6 titulo2" href="#scrollspyHeading2">Aero Local</a>
+              <a type="button" className="btn colorbutton4 fs-6 titulo2" href="#scrollspyHeading3">Aero Combat</a>
+              <a type="button" className="btn colorbutton6 fs-6 titulo2" href="#scrollspyHeading4">Ritmos</a>
+              <a type="button" className="btn colorbutton7 fs-6 titulo2" href="#scrollspyHeading5">Yoga</a>
+              <a type="button" className="btn colorbutton3 fs-6 titulo2" href="#scrollspyHeading6">Abdominales</a>
+              <a type="button" className="btn colorbutton5 fs-6 titulo2" href="#scrollspyHeading7">Estiramiento</a>
             </div>
             <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" className="scrollspy-example " tabindex="0">
        
@@ -35,9 +35,10 @@ const LessonsNavbar = () => {
                             <p className="card-text fs-5 "> Vas a aprender movimientos y posturas que luego vas a poder aplicar en tu vida diaria. <br></br>Power, intensa y efectiva.</p>
                           </div>
                       </div>
+                      <a className="col-auto btn text-danger position-absolute top-50 start-50 translate-middle rounded-circle border-5 border-danger bg-light " href="https://www.youtube.com/watch?v=iQ3g-gqKe_A&ab_channel=gymvirtual">¡Mirá la<br/> clase!</a>
                       
                         <div className="col-md-6 d-flex justify-content-center align-items-center fondobutton11">
-                          <img src={img1} class="img-fluid rounded-start " alt="PesasRusas"></img>
+                          <img src={img1} className="img-fluid rounded-start " alt="PesasRusas"></img>
                         </div>
                 </div>
             </div>
@@ -51,7 +52,7 @@ const LessonsNavbar = () => {
                       </div>
                       
                         <div className="col-md-6 d-flex justify-content-center align-items-center fondobutton22  ">
-                          <img src={img2} class="img-fluid rounded-start " alt="Colchoneta"></img>
+                          <img src={img2} className="img-fluid rounded-start " alt="Colchoneta"></img>
                         </div>
                 </div>
             </div>
@@ -65,7 +66,7 @@ const LessonsNavbar = () => {
                       </div>
                       
                         <div className="col-md-6 d-flex justify-content-center align-items-center fondobutton33  ">
-                          <img src={img3} class="img-fluid rounded-start " alt="guantes"></img>
+                          <img src={img3} className="img-fluid rounded-start " alt="guantes"></img>
                         </div>
                 </div>
             </div>
@@ -79,7 +80,7 @@ const LessonsNavbar = () => {
                       </div>
                       
                         <div className="col-md-6 d-flex justify-content-center align-items-center fondobutton44  ">
-                          <img src={img4} class="img-fluid rounded-start " alt="zapatillas"></img>
+                          <img src={img4} className="img-fluid rounded-start " alt="zapatillas"></img>
                         </div>
                 </div>
             </div>
@@ -94,7 +95,7 @@ const LessonsNavbar = () => {
                       </div>
                       
                         <div className="col-md-6 d-flex justify-content-center align-items-center fondobutton55  ">
-                          <img src={img5} class="img-fluid rounded-start " alt="Colchoneta"></img>
+                          <img src={img5} className="img-fluid rounded-start " alt="Colchoneta"></img>
                         </div>
                 </div>
             </div>
@@ -109,7 +110,7 @@ const LessonsNavbar = () => {
                       </div>
                       
                         <div className="col-md-6 d-flex justify-content-center align-items-center fondobutton66  ">
-                          <img src={img6} class="img-fluid rounded-start " alt="Rueda"></img>
+                          <img src={img6} className="img-fluid rounded-start " alt="Rueda"></img>
                         </div>
                 </div>
             </div>
@@ -123,12 +124,13 @@ const LessonsNavbar = () => {
                       </div>
                       
                         <div className="col-md-6 d-flex justify-content-center align-items-center fondobutton77  ">
-                          <img src={img7} class="img-fluid rounded-start " alt="Colchoneta"></img>
+                          <img src={img7} className="img-fluid rounded-start " alt="Colchoneta"></img>
                         </div>
                 </div>
             </div>
                
             </div>
+            
         </div>
     )
 }
