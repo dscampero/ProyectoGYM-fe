@@ -6,6 +6,7 @@ import img4 from '../helpers/images_lessons/zapas.png'
 import img5 from '../helpers/images_lessons/colchmorada2.png'
 import img6 from '../helpers/images_lessons/ruedita.png'
 import img7 from '../helpers/images_lessons/colchonetamorada.png'
+import png from'../assets/pngLessons/calendario1.png'
 const LessonsNavbar = () => {
     return (
         <div>
@@ -14,17 +15,21 @@ const LessonsNavbar = () => {
             <h1 className="titulo">¡Conocé nuestras clases!</h1>
             </div>
             <div className="col-auto ">
-            <a className='btn botonhorarios botonhorariostittle' href="https://www.google.com.ar/">¡Ver Horarios!</a>
+            <a className='btn botonhorarios botonhorariostittle' href="https://www.google.com.ar/"><img src={png}></img>  ¡Ver Horarios!</a>
             </div>
             </div>
-            <div className="btn-group col-12 row-cols-md-1 row-cols-sm-12 " role="group" aria-label="Basic example">
-              <a type="button" className="btn colorbutton1 fs-6 titulo2 " href="#scrollspyHeading1">Entrenamiento Funcional</a>
-              <a type="button" className="btn colorbutton2 fs-6 titulo2" href="#scrollspyHeading2">Aero Local</a>
-              <a type="button" className="btn colorbutton4 fs-6 titulo2" href="#scrollspyHeading3">Aero Combat</a>
-              <a type="button" className="btn colorbutton6 fs-6 titulo2" href="#scrollspyHeading4">Ritmos</a>
-              <a type="button" className="btn colorbutton7 fs-6 titulo2" href="#scrollspyHeading5">Yoga</a>
-              <a type="button" className="btn colorbutton3 fs-6 titulo2" href="#scrollspyHeading6">Abdominales</a>
-              <a type="button" className="btn colorbutton5 fs-6 titulo2" href="#scrollspyHeading7">Estiramiento</a>
+            <div className="btn-group d-sm-block  d-1 pt-3" role="group" aria-label="Basic example">
+              <div className="container-fluid ">
+                <div className="row">
+              <a type="button" className="btn colorbutton1 fs-6 titulo2 p-4 col-sm" href="#scrollspyHeading1">Entrenamiento Funcional</a>
+              <a type="button" className="btn colorbutton2 fs-6 titulo2 p-4 col-sm" href="#scrollspyHeading2">Aero Local</a>
+              <a type="button" className="btn colorbutton4 fs-6 titulo2 p-4 col-sm" href="#scrollspyHeading3">Aero Combat</a>
+              <a type="button" className="btn colorbutton6 fs-6 titulo2 p-4 col-sm" href="#scrollspyHeading4">Ritmos</a>
+              <a type="button" className="btn colorbutton7 fs-6 titulo2 p-4 col-sm" href="#scrollspyHeading5">Yoga</a>
+              <a type="button" className="btn colorbutton3 fs-6 titulo2 p-4 col-sm" href="#scrollspyHeading6">Abdominales</a>
+              <a type="button" className="btn colorbutton5 fs-6 titulo2 p-4 col-sm" href="#scrollspyHeading7">Estiramiento</a>
+              </div>
+              </div>
             </div>
             <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" className="scrollspy-example " tabindex="0">
        
