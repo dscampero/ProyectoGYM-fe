@@ -9,8 +9,17 @@
     color:white;
 }
 .botonhorarios{
-    
     background-color :#ee256c;
+}
+.buttonlogin{
+    border:unset;
+    border-radius: 40px;
+    background-color :#ee256c
+
+}
+.buttonlogin:hover{
+ background-color:#872145;
+    
 }
 .botonhorariostittle{
     text-decoration: none;
