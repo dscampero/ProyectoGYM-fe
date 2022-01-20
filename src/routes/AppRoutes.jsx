@@ -7,7 +7,7 @@ const AppRoutes = () => {
     return (
         <Router>
             <Route exact path="/" component={HomeScreen}/>
-        <Route exact path="/clases"component={LessonsScreen}/>
+            <Route exact path="/clases"component={LessonsScreen}/>
         </Router>
     )
 }
