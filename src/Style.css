@@ -107,6 +107,10 @@
     box-shadow: inherit;
 }
 
+.navbarButton:hover {
+    background-color: #ee256c;
+}
+
 @media (min-width: 240px) {
     #navbarLogo {
         width: 40%
@@ -141,4 +145,81 @@
     #navbarLogo {
         width: 12%
     }
+  }
+
+  /*---- HomeBanner----- */
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 20px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: inherit;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 25%;
+    margin-left: 6%;
+}
+
+.bannerbutton:hover{
+    background-color: #ee256c;
+}
+
+.bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-left: 15px;
+    margin-top: 5%;
+}
+
+.bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 0%;
+}
+
+.bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    display: inline;
+}
+
+.bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+    margin-left: 15px;
+}
+
+.bannerBenefits {
+    color: #ffd900;
+    font-size: 23px;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    padding: 3px;
+    margin-top: 4%;
+}
+
+  li {
+    line-height: 2;
+    color: white;
+    font-weight: 550;
+    font-size: 19px;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    display: inline-flex;
+    white-space: nowrap;
+    margin-inline-end: 10px;
+    /* -webkit-box-align: center; */
+  }
+  .coso {
+    position: absolute;
+    z-index: 30;
   }
