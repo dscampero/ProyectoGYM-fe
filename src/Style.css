@@ -1,144 +1,674 @@
-/* Navbar Lessons */
-.divsb{
-    border: 10px;
+/* --------------- Navbar Lessons --------------- */
+.divsb {
+  border: 10px;
 }
-.titulo{
-    color: #10c3d9;
+.titulo {
+  color: #10c3d9;
 }
-.titulo2{
-    color:white;
+.titulo2 {
+  color: white;
 }
-.botonhorarios{
-    
-    background-color :#ee256c;
+.botonhorarios {
+  background-color: #ee256c;
 }
-.botonhorariostittle{
-    text-decoration: none;
-    color:#ffd900;
+.botonhorariostittle {
+  text-decoration: none;
+  color: #ffd900;
 }
-.colorbutton1{
-    background-color: orangered;
-}
-
-.fondobutton11{
-
-    background-image: url(./helpers/fondos_lessons/fondo1.png) ;
-   
-}
-.colorbutton2{
-    background-color: #10c3d9;
-}
-.fondobutton22{
-
-    background-image: url(./helpers/fondos_lessons/fondo2.png) ;
-}   
-.colorbutton3{
-    background-color: #ffd900;
-
-}
-.fondobutton33{
-
-    background-image: url(./helpers/fondos_lessons/fondo3.png) ;
-}   
-.colorbutton4{
-    background-color: #ee256c;
-}
-.fondobutton44{
-
-    background-image: url(./helpers/fondos_lessons/fondo4.png) ;
-}   
-.colorbutton5{
-    background-color: #05B8B2;
-
-}
-.fondobutton55{
-
-    background-image: url(./helpers/fondos_lessons/fondo5.png) ;
-}   
-.colorbutton6{
-    background-color: #95C543;
-}
-.fondobutton66{
-
-    background-image: url(./helpers/fondos_lessons/fondo6.png) ;
-}   
-.colorbutton7{
-    background-color: #7D2A8F;
-}
-.fondobutton77{
-
-    background-image: url(./helpers/fondos_lessons/fondo7.png) ;
-}   
-
-/* Boton mira el video */
-
-.borde2{
-    border-color: #10c3d9;
-    color:#10c3d9;
-}
-.borde3{
-    border-color:#ee256c;
-    color:#ee256c;
-}
-.borde4{
-    border-color:#95C543;
-    color:#95C543;
-}
-.borde5{
-    border-color:#7D2A8F;
-    color:#7D2A8F;
-}
-.borde6{
-    border-color:#ffd900;
-    color:#ffd900;
-}
-.borde7{
-    border-color:#05B8B2;
-    color:#05B8B2;
+.colorbutton1 {
+  background-color: orangered;
 }
 
-/* ---- HomeNavbar ---- */
+.fondobutton11 {
+  background-image: url(./helpers/fondos_lessons/fondo1.png);
+}
+.colorbutton2 {
+  background-color: #10c3d9;
+}
+.fondobutton22 {
+  background-image: url(./helpers/fondos_lessons/fondo2.png);
+}
+.colorbutton3 {
+  background-color: #ffd900;
+}
+.fondobutton33 {
+  background-image: url(./helpers/fondos_lessons/fondo3.png);
+}
+.colorbutton4 {
+  background-color: #ee256c;
+}
+.fondobutton44 {
+  background-image: url(./helpers/fondos_lessons/fondo4.png);
+}
+.colorbutton5 {
+  background-color: #05b8b2;
+}
+.fondobutton55 {
+  background-image: url(./helpers/fondos_lessons/fondo5.png);
+}
+.colorbutton6 {
+  background-color: #95c543;
+}
+.fondobutton66 {
+  background-image: url(./helpers/fondos_lessons/fondo6.png);
+}
+.colorbutton7 {
+  background-color: #7d2a8f;
+}
+.fondobutton77 {
+  background-image: url(./helpers/fondos_lessons/fondo7.png);
+}
+
+/* --------------- Boton "mira el video" --------------- */
+
+.borde2 {
+  border-color: #10c3d9;
+  color: #10c3d9;
+}
+.borde3 {
+  border-color: #ee256c;
+  color: #ee256c;
+}
+.borde4 {
+  border-color: #95c543;
+  color: #95c543;
+}
+.borde5 {
+  border-color: #7d2a8f;
+  color: #7d2a8f;
+}
+.borde6 {
+  border-color: #ffd900;
+  color: #ffd900;
+}
+.borde7 {
+  border-color: #05b8b2;
+  color: #05b8b2;
+}
+
+/* --------------- HomeNavbar --------------- */
+
 .navbarButton {
-    background-color: #ffd900;
-    color: #ee256c;
-    font-weight: bold;
-    border: unset;
-    border-radius: 20px;
-    box-shadow: inherit;
+  background-color: #ffd900;
+  color: #ee256c;
+  font-weight: bold;
+  border: unset;
+  border-radius: 20px;
+  box-shadow: inherit;
+}
+
+.navbarButton:hover {
+  background-color: #ee256c;
 }
 
 @media (min-width: 240px) {
-    #navbarLogo {
-        width: 40%
-    }
+  #navbarLogo {
+    width: 40%;
   }
+}
 
 @media (min-width: 320px) {
-    #navbarLogo {
-        width: 40%
-    }
+  #navbarLogo {
+    width: 40%;
   }
-  
-  @media (min-width: 375px) {
-    #navbarLogo {
-        width: 40%
-    }
+}
+
+@media (min-width: 375px) {
+  #navbarLogo {
+    width: 40%;
   }
-  
-  @media (min-width: 425px) {
-    #navbarLogo {
-        width: 40%
-    }
+}
+
+@media (min-width: 425px) {
+  #navbarLogo {
+    width: 40%;
   }
-  
-  @media (min-width: 768px) {
-    #navbarLogo {
-        width: 40%
-    }
+}
+
+@media (min-width: 768px) {
+  #navbarLogo {
+    width: 40%;
   }
-  
-  @media (min-width: 1024px) {
-    #navbarLogo {
-        width: 12%
-    }
+}
+
+@media (min-width: 1024px) {
+  #navbarLogo {
+    width: 12%;
   }
+}
+
+
+/*--------------- HomeBanner --------------- */
+
+@media (min-width: 320px) {
+  .bannerFull {
+    display: none;
+  }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-left: 11px;
+    margin-top: 13%;
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0%;
+    text-shadow: 0.5px 0.5px 8px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    display: inline;
+    align-items: center;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-top: 4%;
+  }
+
+  li {
+    display: none;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 20px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.1px 1px 2px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 1%;
+    margin-left: 13%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
+
+@media (min-width: 375px) {
+  .bannerFull {
+    display: none;
+  }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-top: 17%;
+    margin-left: 7px;
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: -3%;
+    text-shadow: 0.5px 0.5px 8px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    display: inline;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-left: 8%;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-top: 4%;
+  }
+
+  li {
+    display: none;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 20px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.1px 1px 2px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 2%;
+    margin-left: 18%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
+
+@media (min-width: 412px) {
+  .bannerFull {
+    display: none;
+  }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-top: 17%;
+    margin-left: 8%;
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: -3%;
+    text-shadow: 0.5px 0.5px 8px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    display: inline;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-left: 8%;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-top: 4%;
+  }
+
+  li {
+    display: none;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 20px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.1px 1px 2px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 2%;
+    margin-left: 19%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
+
+@media (min-width: 425px) {
+  .bannerFull {
+    display: none;
+  }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-top: 19%;
+    margin-left: 11px;
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 55px;
+    margin-bottom: -3%;
+    text-shadow: 0.5px 0.5px 8px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    display: inline;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-left: 14%;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-top: 4%;
+  }
+
+  li {
+    display: none;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 20px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.1px 1px 2px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 3%;
+    margin-left: 24%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
+
+@media (min-width: 768px) {
+  .bannerMobile {
+    display: none;
+  }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-top: 5%;
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: -3%;
+    text-shadow: 0.5px 0.5px 8px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 33px;
+    display: inline;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-left: 14%;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-top: 4%;
+  }
+
+  li {
+    display: none;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.1px 1px 2px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 1%;
+    margin-left: 16%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bannerMobile {
+    display: none;
+  }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-top: 7%;
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: -3%;
+    text-shadow: 0.5px 0.5px 8px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 33px;
+    display: inline;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-left: 14%;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-top: 4%;
+  }
+
+  li {
+    display: none;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 20px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.1px 1px 2px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 1%;
+    margin-left: 16%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
+
+@media (min-width: 1440px) {
+  .bannerMobile {
+    display: none;
+  }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-top: 5%;
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 0%;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    display: inline;
+    align-items: center;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+    margin-left: 15px;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 23px;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    padding: 3px;
+    margin-top: 4%;
+  }
+
+  li {
+    line-height: 2;
+    color: white;
+    font-weight: 550;
+    font-size: 19px;
+    display: inline-flex;
+    white-space: nowrap;
+    margin-inline-end: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+  .bannerList {
+    position: absolute;
+    z-index: 30;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 21px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.05px 0.05px 7px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 29%;
+    margin-left: 20%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
