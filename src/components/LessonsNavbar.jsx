@@ -15,7 +15,7 @@ const LessonsNavbar = () => {
             <h1 className="titulo">¡Conocé nuestras clases!</h1>
             </div>
             <div className="col-auto ">
-            <a className='btn botonhorarios botonhorariostittle' href="https://www.google.com.ar/"><img src={png}></img>  ¡Ver Horarios!</a>
+            <a className='btn botonhorarios botonhorariostittle' href="https://www.google.com.ar/"> ¡Ver Horarios!</a>
             </div>
             </div>
             <div className="btn-group d-sm-block  d-1 pt-3" role="group" aria-label="Basic example">
