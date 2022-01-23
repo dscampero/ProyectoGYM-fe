@@ -1,11 +1,13 @@
 import React from 'react';
 import HomeNavbar from '../components/HomeNavbar';
-import HomeBanner from '../components/HomeBanner';
+import HomePromoBanner from '../components/HomePromoBanner';
+import HomeTurnBanner from '../components/HomeTurnBanner';
 
 const HomeScreen = () => {
   return <div>
     <HomeNavbar/>
-    <HomeBanner />
+      <HomePromoBanner />
+      <HomeTurnBanner/>
   </div>;
 };
 
