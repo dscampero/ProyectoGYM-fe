@@ -137,19 +137,23 @@
   }
 }
 
-
-/*--------------- HomeBanner --------------- */
+/*--------------- HomePromoBanner --------------- */
 
 @media (min-width: 320px) {
-  .bannerFull {
+  .bannerfull {
     display: none;
+  }
+
+  .bannerMobile {
+    position: relative;
   }
 
   .bannerContainer {
     position: absolute;
     z-index: 30;
-    margin-left: 11px;
-    margin-top: 13%;
+    margin-left: 14px;
+    margin-top: -90%;
+    /* top: 0 */
   }
 
   .bannerHeader {
@@ -224,8 +228,8 @@
   .bannerContainer {
     position: absolute;
     z-index: 30;
-    margin-top: 17%;
-    margin-left: 7px;
+    margin-top: -85%;
+    margin-left: 10px;
   }
 
   .bannerHeader {
@@ -284,7 +288,7 @@
     padding-left: 45px;
     padding-right: 45px;
     margin-top: 2%;
-    margin-left: 18%;
+    margin-left: 20%;
   }
 
   .bannerbutton:hover {
@@ -300,7 +304,7 @@
   .bannerContainer {
     position: absolute;
     z-index: 30;
-    margin-top: 17%;
+    margin-top: -80%;
     margin-left: 8%;
   }
 
@@ -376,8 +380,8 @@
   .bannerContainer {
     position: absolute;
     z-index: 30;
-    margin-top: 19%;
-    margin-left: 11px;
+    margin-top: -82%;
+    margin-left: 16px;
   }
 
   .bannerHeader {
@@ -449,10 +453,14 @@
     display: none;
   }
 
+  .bannerfull {
+    display: inherit;
+  }
+
   .bannerContainer {
     position: absolute;
     z-index: 30;
-    margin-top: 5%;
+    margin-top: -31%;
   }
 
   .bannerHeader {
@@ -527,7 +535,7 @@
   .bannerContainer {
     position: absolute;
     z-index: 30;
-    margin-top: 7%;
+    margin-top: -27%;
   }
 
   .bannerHeader {
@@ -600,9 +608,8 @@
   }
 
   .bannerContainer {
-    position: absolute;
     z-index: 30;
-    margin-top: 5%;
+    margin-top: -30%;
   }
 
   .bannerHeader {
@@ -659,7 +666,7 @@
     font-weight: bold;
     border: unset;
     border-radius: 20px;
-    box-shadow: 0.05px 0.05px 7px black;
+    box-shadow: 0.05px 0.05px 4px black;
     position: absolute;
     z-index: 30;
     padding-left: 45px;
@@ -672,3 +679,214 @@
     background-color: #ee256c;
   }
 }
+
+/* --------------- HomeTurnBanner --------------- */
+
+@media (min-width: 320px) {
+  .turnContainer {
+    background-color: #10c3d9;
+    background-image: url("./assets/stripsBanner.png");
+    background-size: contain;
+    position: relative;
+  }
+
+  .turnTitle {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: 2%;
+  }
+
+  .turnSubtitle {
+    color: white;
+    font-size: 15px;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: -4%;
+  }
+
+  .turnButton {
+    background-color: #7d2a8f;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: inherit;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: -2%;
+    margin-bottom: 3%;
+  }
+
+  .turnButton:hover {
+    background-color: #7d2a8f;
+  }
+}
+
+@media (min-width: 375px) {
+  .turnContainer {
+    background-color: #10c3d9;
+    background-image: url("./assets/stripsBanner.png");
+    background-size: contain;
+  }
+
+  .turnTitle {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: 2%;
+  }
+
+  .turnSubtitle {
+    color: white;
+    font-size: 12px;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: -4%;
+  }
+
+  .turnButton {
+    background-color: #7d2a8f;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: inherit;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: -2%;
+    margin-bottom: 3%;
+  }
+
+  .turnButton:hover {
+    background-color: #7d2a8f;
+  }
+}
+
+@media (min-width: 768px) {
+  .turnContainer {
+    background-color: #10c3d9;
+    background-image: url("./assets/stripsBanner.png");
+    background-size: cover;
+  }
+
+  .textContainer {
+    margin-bottom: 0%;
+  }
+
+  .turnTitle {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: 5%;
+  }
+
+  .turnSubtitle {
+    color: white;
+    font-size: 24px;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: -2%;
+  }
+
+  .turnButton {
+    background-color: #7d2a8f;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: inherit;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .turnButton:hover {
+    background-color: #7d2a8f;
+  }
+}
+
+@media (min-width: 1024px) {
+  .turnContainer {
+    background-color: #10c3d9;
+    background-image: url("./assets/stripsBanner.png");
+    background-size: cover;
+  }
+
+  .turnTitle {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: 4%;
+  }
+
+  .turnSubtitle {
+    color: white;
+    font-size: 22px;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: -1%;
+  }
+
+  .turnButton {
+    background-color: #7d2a8f;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: inherit;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 0%;
+  }
+
+  .turnButton:hover {
+    background-color: #7d2a8f;
+  }
+}
+
+@media (min-width: 1440px) {
+  .turnContainer {
+    background-color: #10c3d9;
+    background-image: url("./assets/stripsBanner.png");
+    background-size: cover;
+  }
+
+  .turnTitle {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: 3%;
+  }
+
+  .turnSubtitle {
+    color: white;
+    font-size: 30px;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: -1%;
+  }
+
+  .turnButton {
+    background-color: #7d2a8f;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    border: unset;
+    border-radius: 25px;
+    box-shadow: inherit;
+    padding-top: 0.25%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 0.5%;
+  }
+
+  .turnButton:hover {
+    background-color: #7d2a8f;
+  }
+}
+

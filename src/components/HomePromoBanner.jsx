@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import Banner from "../assets/HomeBanner1.png";
 import BannerMobile from '../assets/HomeBannerMobile.png'
 
-const HomeBanner = () => {
+const HomePromoBanner = () => {
   return (
     <div>
       <div>
@@ -11,16 +11,16 @@ const HomeBanner = () => {
           <img
             src={Banner}
             alt="bannerHome"
-            class="img-fluid"
-            style={{ position: "absolute", zIndex: 20 }}
+            className="img-fluid"
+            style={{zIndex: 20 }}
           />
         </div>
         <div className='bannerMobile'>
           <img
             src={BannerMobile}
             alt="bannerHome"
-            class="img-fluid"
-            style={{ position: "absolute", zIndex: 20}}
+            className="img-fluid"
+            style={{zIndex: 20}}
           />
         </div>
         <div className="bannerContainer">
@@ -47,4 +47,4 @@ const HomeBanner = () => {
   );
 };
 
-export default HomeBanner;
+export default HomePromoBanner;
