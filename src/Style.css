@@ -1030,9 +1030,10 @@
   .footerLogo {
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 50%;
     margin-bottom: 1%;
     margin-left: 6%;
+    margin-top: 6%;
   }
 
   .footerDivider {
@@ -1043,13 +1044,13 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 21px;
-    margin-left: -26%;
+    font-size: 17px;
+    margin-left: -37%;
     margin-bottom: 6%;
   }
 
   .footerTextHeader {
-    font-size: 25px;
+    font-size: 22px;
     color: white;
     margin-top: 4%;
   }
@@ -1071,6 +1072,48 @@
 }
 
 
+/* --------------- appointmentPage --------------- */
 
+.apoointmentContainer {
+  background-image: url('../src/assets/apointmentBackground2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.apoointmentHeader {
+  color:white;
+  font-weight: bold;
+  text-shadow: 0.25px 0.25px 6px black;
+  font-size: xx-large;
+  margin-bottom: 2%;
+}
+.apoointmentSubHeader {
+  font-weight: bold;
+  font-size: large;
+}
+
+.coso {
+  background-color: #2e4d6ba1;
+}
+
+.inputText {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0.25px 0.25px 4px black;
+}
+
+/* --- Validacion de inputs --- */
+input:invalid {
+  border: 2px solid yellow;
+}
+
+textArea:invalid {
+  border: 2px solid yellow;
+}
+
+select:invalid {
+  color: yellow;
+}
 
 
