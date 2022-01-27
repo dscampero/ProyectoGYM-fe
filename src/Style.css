@@ -1,15 +1,25 @@
+/* -----------Lesossons Screen----------- */
 /* Navbar Lessons */
 .divsb{
     border: 10px;
 }
-.titulo{
+.tittle1{
+    color: orangered;
+}
+.tittle{
     color: #10c3d9;
 }
-.titulo2{
+.tittle2{
     color:white;
 }
-.botonhorarios{
+.buttonschedule{
+    border:unset;
     background-color :#ee256c;
+
+}
+.buttonschedule:hover{
+    background-color:#872145;
+    color:#8f8b14;
 }
 .buttonlogin{
     border:unset;
@@ -21,87 +31,241 @@
  background-color:#872145;
     
 }
-.botonhorariostittle{
+.buttonscheduletittle{
     text-decoration: none;
     color:#ffd900;
 }
 .colorbutton1{
     background-color: orangered;
+    border:none
 }
-
-.fondobutton11{
-
+.colorbutton1:hover{
+    background-color:rgb(231, 62, 1);
+}
+.backgroundbutton11{
     background-image: url(./helpers/fondos_lessons/fondo1.png) ;
-   
 }
 .colorbutton2{
     background-color: #10c3d9;
+    border:none;
 }
-.fondobutton22{
+.colorbutton2:hover{
+    background-color: #0da5b9;
+}
+.backgroundbutton22{
 
     background-image: url(./helpers/fondos_lessons/fondo2.png) ;
 }   
 .colorbutton3{
     background-color: #ffd900;
-
+    border:none;
 }
-.fondobutton33{
+.colorbutton3:hover{
+    background-color: #e7c503;
+}
+.backgroundbutton33{
 
     background-image: url(./helpers/fondos_lessons/fondo3.png) ;
 }   
 .colorbutton4{
     background-color: #ee256c;
+    border:none;
+
 }
-.fondobutton44{
+.colorbutton4:hover{
+    background-color: #be2659;
+    border:none;
+
+}
+.backgroundbutton44{
 
     background-image: url(./helpers/fondos_lessons/fondo4.png) ;
 }   
 .colorbutton5{
     background-color: #05B8B2;
-
+    border:none;
 }
-.fondobutton55{
+.colorbutton5:hover{
+    background-color: #049e99;
+}
+.backgroundbutton55{
 
     background-image: url(./helpers/fondos_lessons/fondo5.png) ;
 }   
 .colorbutton6{
     background-color: #95C543;
+    border:none;
 }
-.fondobutton66{
-
+.colorbutton6:hover{
+    background-color: #7aa137;
+}
+.backgroundbutton66{
     background-image: url(./helpers/fondos_lessons/fondo6.png) ;
 }   
 .colorbutton7{
     background-color: #7D2A8F;
+    border:none;
 }
-.fondobutton77{
+.colorbutton7:hover{
+    background-color: #5d206b;
+}
+.backgroundbutton77{
 
     background-image: url(./helpers/fondos_lessons/fondo7.png) ;
 }   
+/* background card */
+.backgroundcard1{
+    background-color: orangered;
 
-/* Boton mira el video */
+}
+.backgroundcard2{
+    background-color: #10c3d9;
+}
+.backgroundcard3{
+    background-color: #ffd900;
 
-.borde2{
+}
+.backgroundcard4{
+    background-color: #ee256c;
+
+}
+.backgroundcard5{
+    background-color: #05B8B2;
+}
+.backgroundcard6{
+    background-color: #95C543;
+}
+.backgroundcard7{
+    background-color: #7D2A8F;
+}
+/* button mira el video */
+.border2{
     border-color: #10c3d9;
     color:#10c3d9;
 }
-.borde3{
+.border3{
     border-color:#ee256c;
     color:#ee256c;
 }
-.borde4{
+.border4{
     border-color:#95C543;
     color:#95C543;
 }
-.borde5{
+.border5{
     border-color:#7D2A8F;
     color:#7D2A8F;
 }
-.borde6{
+.border6{
     border-color:#ffd900;
     color:#ffd900;
 }
-.borde7{
+.border7{
     border-color:#05B8B2;
     color:#05B8B2;
 }
+/* -----------Login Screen----------- */
+
+.userLoginCard {
+    height: 400px;
+    width: 350px;
+    margin-top: 10%;
+    margin-bottom: auto;
+    background: #2e4d6ba1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    font-weight: 400;
+    color: white;
+  }
+  .loginLogoContainer {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background:#10c3d9;
+    padding: 10px;
+    text-align: center;
+  }
+  .loginLogo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  .formContainer {
+    margin-top: 100px;
+  }
+  
+  .loginContainer {
+    padding: 0 2rem;
+  } 
+  
+  
+/*------- Comunes entre login y register -------*/
+
+  
+  .input-group-text {
+    background: #ffd900 !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+  }
+  .input_user,
+  .input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+  }
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #477250 !important;
+  }
+  
+  #loginButton {
+    background-color: #ffd900;
+    border-radius: 50px;
+    padding: 8px;
+    color:orangered;
+  }
+  
+  #loginButton a {
+    color: white;
+    font-weight: 500;
+      color:orangered;
+  }
+  
+  #registerFormTitle {
+    color: white;
+    text-shadow: black;
+  }
+  
+  #backToHome {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+  /* .fondologin{
+      background-image: url("./helpers/images_login/backgroundlogin.png");
+      background-size: cover;
+      background-color: green;
+  }  */
+  .formBody {
+    margin: 0;
+    padding: 0;
+     height: 625px; 
+    background-image: url("./helpers/images_login/background.jpg"); 
+    background-size: cover;
+    background-color: green;
+
+  }
+
+  .formContainer {
+    margin-top: 100px;   
+  }
