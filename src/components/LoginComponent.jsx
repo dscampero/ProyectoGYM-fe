@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/pngLogin/biceps2.svg'
+import logo from '../assets/pngLogin/biceps.svg'
 const LoginComponent = () => {
   return (
     <div id="formBody">
