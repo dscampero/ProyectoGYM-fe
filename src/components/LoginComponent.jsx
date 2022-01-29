@@ -2,13 +2,13 @@ import React from 'react';
 import logo from '../assets/pngLogin/biceps2.svg'
 const LoginComponent = () => {
   return (
-  <div  className="formBody ">
-    {/* <div className="container h-100 "> */}
-      <div className="d-flex justify-content-center h-100 ">
-        <div className="userLoginCard ">
+    <div id="formBody">
+    <div className="container h-100">
+      <div className="d-flex justify-content-center h-100">
+        <div className="userLoginCard">
           <div className="d-flex justify-content-center">
             <div className="loginLogoContainer">
-               <img src={logo} className="loginLogo" alt="Logo" /> <img/>
+              <img src={logo} className="loginLogo" alt="Logo" />
             </div>
           </div>
           <div className="d-flex justify-content-center formContainer">
@@ -36,9 +36,9 @@ const LoginComponent = () => {
               </div>
               <div className="input-group mb-2">
                 <div className="input-group-append">
-                  <span className="input-group-text"
-                    ><i className="fas fa-key"></i
-                  ></span>
+                  <span className="input-group-text">
+                    <i className="fas fa-key"></i>
+                  </span>
                 </div>
                 <input
                   type="password"
@@ -47,7 +47,7 @@ const LoginComponent = () => {
                   className="form-control input_pass"
                   placeholder="Contraseña"
                   required
-				  minLength="8"
+				          minLength="8"
                   maxLength="12"
                   pattern="[A-Za-z0-9]+"
                 />
@@ -71,14 +71,14 @@ const LoginComponent = () => {
           <div className="mt-0">
             <div className="d-flex justify-content-center links">
               ¿No tienes cuenta?
-              <a href="#" className="ml-2">Regístrate</a>
+              <a href="../register/register.html" className="ml-2">Regístrate</a>
             </div>
             <div className="d-flex justify-content-center links">
               <a href="#">¿Olvidaste tu contraseña?</a>
             </div>
             <div className="d-flex justify-content-center links">
               <a
-                href="#"
+                href="../index.html"
                 className="ml-2"
                 id="backToHome"
                 name="backToHome"
@@ -88,9 +88,8 @@ const LoginComponent = () => {
           </div>
         </div>
       </div>
-    {/* </div> */}
+    </div>
   </div>
-
 )};
 
 export default LoginComponent;

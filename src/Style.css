@@ -165,107 +165,125 @@
 }
 /* -----------Login Screen----------- */
 
+.formContainer {
+  margin-top: 100px;
+}
+
+.registerContainer {
+  padding: 0 2rem;
+}
+
+
+/*------- Login ------- */
+
 .userLoginCard {
-    height: 400px;
-    width: 350px;
-    margin-top: 10%;
-    margin-bottom: auto;
-    background: #2e4d6ba1;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 25px;
-    font-weight: 400;
-    color: white;
-  }
-  .loginLogoContainer {
-    position: absolute;
-    height: 170px;
-    width: 170px;
-    top: -75px;
-    border-radius: 50%;
-    background:#10c3d9;
-    padding: 10px;
-    text-align: center;
-  }
-  .loginLogo {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 2px solid white;
-  }
-  .formContainer {
-    margin-top: 100px;
-  }
-  
-  .loginContainer {
-    padding: 0 2rem;
-  } 
-  
-  
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #2e4d6ba1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  font-weight: 400;
+  color: white;
+}
+.loginLogoContainer {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background-color: #10c3d9;
+  padding: 10px;
+  text-align: center;
+}
+.loginLogo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.formContainer {
+  margin-top: 100px;
+}
+
+.loginContainer {
+  padding: 0 2rem;
+}
+
 /*------- Comunes entre login y register -------*/
 
-  
-  .input-group-text {
-    background: #ffd900 !important;
-    color: white !important;
-    border: 0 !important;
-    border-radius: 0.25rem 0 0 0.25rem !important;
-  }
-  .input_user,
-  .input_pass:focus {
-    box-shadow: none !important;
-    outline: 0px !important;
-  }
-  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-    background-color: #477250 !important;
-  }
-  
-  #loginButton {
-    background-color: #ffd900;
-    border-radius: 50px;
-    padding: 8px;
-    color:orangered;
-  }
-  
-  #loginButton a {
-    color: white;
-    font-weight: 500;
-      color:orangered;
-  }
-  
-  #registerFormTitle {
-    color: white;
-    text-shadow: black;
-  }
-  
-  #backToHome {
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-  }
-  /* .fondologin{
-      background-image: url("./helpers/images_login/backgroundlogin.png");
-      background-size: cover;
-      background-color: green;
-  }  */
-  .formBody {
-    margin: 0;
-    padding: 0;
-     height: 625px; 
-    background-image: url("./helpers/images_login/background.jpg"); 
-    background-size: cover;
-    background-color: green;
+#formBody {
+  margin: 0;
+  padding: 0;
+background-color: #10c3d9;
+  background-size: cover;
+}
 
-  }
+.input-group-text {
+  background: #ee256c !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+  height: 100%;
+}
+.input_user,
+.input_pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #477250 !important;
+}
 
-  .formContainer {
-    margin-top: 100px;   
-  }
+#loginButton {
+  background-color: #ee256c;
+  border-radius: 50px;
+  padding: 8px;
+  
+}
+
+#loginButton a {
+  color: #ffd900;
+  font-weight: 500;
+}
+
+#registerFormTitle {
+  color: white;
+  text-shadow: black;
+}
+
+#backToHome {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+  @media only screen and (min-width: 0px) and (max-width: 767px){
+    #formBody{
+        background-image: url('./helpers/images_login/backgroundloginphone.jpg');
+        height: 564px;
+        
+    }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 900px){
+        #formBody{
+            background-image: url('./helpers/images_login/backgroundlogin.png');
+            height: 564px;
+        }
+        }
+  @media only screen and (min-width: 901px) and (max-width: 1440px){
+    #formBody{
+        background-image: url('./helpers/images_login/backgroundlogin.png');
+        height: 657px;
+
+    }
+    }
