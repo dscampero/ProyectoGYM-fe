@@ -1,89 +1,275 @@
-/* --------------- Navbar Lessons --------------- */
+/* -----------Lesossons Screen----------- */
+/* Navbar Lessons */
 .divsb {
   border: 10px;
 }
-.titulo {
+.tittle1 {
+  color: orangered;
+}
+.tittle {
   color: #10c3d9;
 }
-.titulo2 {
+.tittle2 {
   color: white;
 }
-.botonhorarios {
+.buttonschedule {
+  border: unset;
   background-color: #ee256c;
 }
-.botonhorariostittle {
+.buttonschedule:hover {
+  background-color: #872145;
+  color: #8f8b14;
+}
+.buttonlogin {
+  border: unset;
+  border-radius: 40px;
+  background-color: #ee256c;
+}
+.buttonlogin:hover {
+  background-color: #872145;
+}
+.buttonscheduletittle {
   text-decoration: none;
   color: #ffd900;
 }
 .colorbutton1 {
   background-color: orangered;
+  border: none;
 }
-
-.fondobutton11 {
+.colorbutton1:hover {
+  background-color: rgb(231, 62, 1);
+}
+.backgroundbutton11 {
   background-image: url(./helpers/fondos_lessons/fondo1.png);
 }
 .colorbutton2 {
   background-color: #10c3d9;
+  border: none;
 }
-.fondobutton22 {
+.colorbutton2:hover {
+  background-color: #0da5b9;
+}
+.backgroundbutton22 {
   background-image: url(./helpers/fondos_lessons/fondo2.png);
 }
 .colorbutton3 {
   background-color: #ffd900;
+  border: none;
 }
-.fondobutton33 {
+.colorbutton3:hover {
+  background-color: #e7c503;
+}
+.backgroundbutton33 {
   background-image: url(./helpers/fondos_lessons/fondo3.png);
 }
 .colorbutton4 {
   background-color: #ee256c;
+  border: none;
 }
-.fondobutton44 {
+.colorbutton4:hover {
+  background-color: #be2659;
+  border: none;
+}
+.backgroundbutton44 {
   background-image: url(./helpers/fondos_lessons/fondo4.png);
 }
 .colorbutton5 {
   background-color: #05b8b2;
+  border: none;
 }
-.fondobutton55 {
+.colorbutton5:hover {
+  background-color: #049e99;
+}
+.backgroundbutton55 {
   background-image: url(./helpers/fondos_lessons/fondo5.png);
 }
 .colorbutton6 {
   background-color: #95c543;
+  border: none;
 }
-.fondobutton66 {
+.colorbutton6:hover {
+  background-color: #7aa137;
+}
+.backgroundbutton66 {
   background-image: url(./helpers/fondos_lessons/fondo6.png);
 }
 .colorbutton7 {
   background-color: #7d2a8f;
+  border: none;
 }
-.fondobutton77 {
+.colorbutton7:hover {
+  background-color: #5d206b;
+}
+.backgroundbutton77 {
   background-image: url(./helpers/fondos_lessons/fondo7.png);
 }
-
-/* --------------- Boton "mira el video" --------------- */
-
-.borde2 {
+/* background card */
+.backgroundcard1 {
+  background-color: orangered;
+}
+.backgroundcard2 {
+  background-color: #10c3d9;
+}
+.backgroundcard3 {
+  background-color: #ffd900;
+}
+.backgroundcard4 {
+  background-color: #ee256c;
+}
+.backgroundcard5 {
+  background-color: #05b8b2;
+}
+.backgroundcard6 {
+  background-color: #95c543;
+}
+.backgroundcard7 {
+  background-color: #7d2a8f;
+}
+/* button mira el video */
+.border2 {
   border-color: #10c3d9;
   color: #10c3d9;
 }
-.borde3 {
+.border3 {
   border-color: #ee256c;
   color: #ee256c;
 }
-.borde4 {
+.border4 {
   border-color: #95c543;
   color: #95c543;
 }
-.borde5 {
+.border5 {
   border-color: #7d2a8f;
   color: #7d2a8f;
 }
-.borde6 {
+.border6 {
   border-color: #ffd900;
   color: #ffd900;
 }
-.borde7 {
+.border7 {
   border-color: #05b8b2;
   color: #05b8b2;
+}
+/* -----------Login Screen----------- */
+
+.formContainer {
+  margin-top: 100px;
+}
+
+.registerContainer {
+  padding: 0 2rem;
+}
+
+/*------- Login ------- */
+
+.userLoginCard {
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #2e4d6ba1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  font-weight: 400;
+  color: white;
+}
+.loginLogoContainer {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background-color: #10c3d9;
+  padding: 10px;
+  text-align: center;
+}
+.loginLogo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.formContainer {
+  margin-top: 100px;
+}
+
+.loginContainer {
+  padding: 0 2rem;
+}
+
+/*------- Comunes entre login y register -------*/
+
+#formBody {
+  margin: 0;
+  padding: 0;
+  background-color: #10c3d9;
+  background-size: cover;
+}
+
+.input-group-text {
+  background: #ee256c;
+  color: white;
+  border: 0;
+  border-radius: 0.25rem 0 0 0.25rem;
+  height: 100%;
+}
+.input_user,
+.input_pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #477250 !important;
+}
+
+#loginButton {
+  background-color: #ee256c;
+  border-radius: 50px;
+  padding: 8px;
+  border-color: #ee256c;
+}
+
+#loginButton a {
+  color: #ffd900;
+  font-weight: 500;
+}
+
+#registerFormTitle {
+  color: white;
+  text-shadow: black;
+}
+
+#backToHome {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  #formBody {
+    background-image: url("./helpers/images_login/backgroundloginphone.jpg");
+    height: 529px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  #formBody {
+    background-image: url("./helpers/images_login/backgroundlogin.png");
+    height: 564px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1440px) {
+  #formBody {
+    background-image: url("./helpers/images_login/backgroundlogin.png");
+    height: 625px;
+  }
 }
 
 /* --------------- HomeNavbar --------------- */
@@ -942,7 +1128,7 @@
   }
 
   .footerDivider {
-    display: none
+    display: none;
   }
 
   .sloganLogo {
@@ -969,7 +1155,6 @@
     font-size: x-large;
     color: white;
     margin-top: 1%;
-
   }
 
   .footerLink {
@@ -989,7 +1174,7 @@
   }
 
   .footerDivider {
-    display: none
+    display: none;
   }
 
   .sloganLogo {
@@ -1016,7 +1201,6 @@
     font-size: xx-large;
     color: white;
     margin-top: 1%;
-
   }
 
   .footerLink {
@@ -1030,26 +1214,27 @@
   .footerLogo {
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 50%;
     margin-bottom: 1%;
     margin-left: 6%;
+    margin-top: 6%;
   }
 
   .footerDivider {
-    display: none
+    display: none;
   }
 
   .sloganLogo {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 21px;
-    margin-left: -26%;
+    font-size: 17px;
+    margin-left: -37%;
     margin-bottom: 6%;
   }
 
   .footerTextHeader {
-    font-size: 25px;
+    font-size: 22px;
     color: white;
     margin-top: 4%;
   }
@@ -1060,7 +1245,6 @@
     font-size: xx-large;
     color: white;
     margin-top: 1%;
-
   }
 
   .footerLink {
@@ -1070,7 +1254,126 @@
   }
 }
 
+/* --------------- appointmentPage --------------- */
 
+.apoointmentContainer {
+  background-image: url("../src/assets/apointmentBackground2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.apoointmentHeader {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0.25px 0.25px 6px black;
+  font-size: xx-large;
+  margin-bottom: 2%;
+}
+.apoointmentSubHeader {
+  font-weight: bold;
+  font-size: large;
+}
 
+.coso {
+  background-color: #2e4d6ba1;
+}
 
+.inputText {
+  color: white;
+
+  margin-top: 1%;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: #ffd900;
+  font-size: 15px;
+}
+
+@media (min-width: 1440px) {
+  .footerLogo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 1%;
+    margin-left: 6%;
+    margin-top: 6%;
+  }
+
+  .footerDivider {
+    display: none;
+  }
+
+  .sloganLogo {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    margin-left: -37%;
+    margin-bottom: 6%;
+  }
+
+  .footerTextHeader {
+    font-size: 22px;
+    color: white;
+    margin-top: 4%;
+  }
+
+  #footerSocialMedia {
+    text-decoration: none;
+    margin-bottom: 1%;
+    font-size: xx-large;
+    color: white;
+    margin-top: 1%;
+  }
+
+  .footerLink {
+    text-decoration: none;
+    color: #ffd900;
+    font-size: 16px;
+  }
+}
+
+/* --------------- appointmentPage --------------- */
+
+.apoointmentContainer {
+  background-image: url("../src/assets/apointmentBackground2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.apoointmentHeader {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0.25px 0.25px 6px black;
+  font-size: xx-large;
+  margin-bottom: 2%;
+}
+.apoointmentSubHeader {
+  font-weight: bold;
+  font-size: large;
+}
+
+.coso {
+  background-color: #2e4d6ba1;
+}
+
+.inputText {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0.25px 0.25px 4px black;
+}
+
+/* --- Validacion de inputs --- */
+input:invalid {
+  border: 2px solid yellow;
+}
+
+textArea:invalid {
+  border: 2px solid yellow;
+}
+
+select:invalid {
+  color: yellow;
+}

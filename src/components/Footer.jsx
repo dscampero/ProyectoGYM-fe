@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div>
       <footer
-        className="footer font-small blue pt-4"
+        className="footer font-small blue"
         style={{ backgroundColor: "#2b2b2b" }}
       >
         <div className="container-fluid text-center text-md-left">
@@ -21,7 +21,7 @@ const Footer = () => {
               <p className="sloganLogo">LA MEJOR MANERA DE ENTRENAR</p>
             </div>
             <hr className="footerDivider" style={{ color: "white" }}></hr>
-            <div className="col-md-4 mb-md-0 mb-3">
+            <div className="col-md-4 mb-md-0 mb-3 mt-2">
               <h5 className="footerTextHeader">Encuéntranos en:</h5>
               <a className="me-1" href="http://facebook.com">
                 <FacebookOutlinedIcon id="footerSocialMedia" />
@@ -37,21 +37,21 @@ const Footer = () => {
               </a>
             </div>
             <hr className="footerDivider" style={{ color: "white" }}></hr>
-            <div className="col-md-4 mb-md-0" style={{ color: "white" }}>
-              <h5 className="footerTextHeader">Comunicate con nosotros</h5>
-              <div className="mt-3">
-                <WhatsAppIcon className="me-2" id="footerSocialMedia" />
+            <div className="col-md-4 mb-md-0 mt-2" style={{ color: "white" }}>
+              <h5 className="footerTextHeader">Comunícate con nosotros</h5>
+              <div className="mt-2" style={{textAlign:'center'}}>
+                <WhatsAppIcon className="me-2" id="footerSocialMedia"/>
                 <a className="footerLink" href="https://walink.co/6fd287">
                   {"¡Click acá para escribirnos!"}
                 </a>
               </div>
-              <div className="mt-3">
+              <div style={{textAlign:'center'}}>
                 <MailOutlineIcon className="me-2" id="footerSocialMedia" />
                 <a
                   className="footerLink"
                   href="mailto:rbdtucuman@gmail.com? subject=Quiero saber más de RBD GYM"
                 >
-                  {"¡Click acá enviarnos un mail"}
+                  {"¡Clickeá para enviarnos un mail!"}
                 </a>
               </div>
             </div>
@@ -59,8 +59,8 @@ const Footer = () => {
         </div>
         <hr className="footerDivider" style={{ color: "white" }}></hr>
         <div
-          className="footer-copyright text-center py-3"
-          style={{ color: "white", paddingLeft: "5px", paddingRight: "5px" }}
+          className="footer-copyright text-center"
+          style={{ color: "white", paddingLeft: "15px", paddingRight: "15px", paddingBottom:'10px'}}
         >
           {"© 2022 Copyright | RBY GYM | Las Heras 14 - San Miguel de Tucumán"}
         </div>
