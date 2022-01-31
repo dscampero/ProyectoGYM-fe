@@ -942,7 +942,7 @@
   }
 
   .footerDivider {
-    display: none
+    display: none;
   }
 
   .sloganLogo {
@@ -969,7 +969,6 @@
     font-size: x-large;
     color: white;
     margin-top: 1%;
-
   }
 
   .footerLink {
@@ -989,7 +988,7 @@
   }
 
   .footerDivider {
-    display: none
+    display: none;
   }
 
   .sloganLogo {
@@ -1016,7 +1015,6 @@
     font-size: xx-large;
     color: white;
     margin-top: 1%;
-
   }
 
   .footerLink {
@@ -1037,7 +1035,7 @@
   }
 
   .footerDivider {
-    display: none
+    display: none;
   }
 
   .sloganLogo {
@@ -1061,7 +1059,6 @@
     font-size: xx-large;
     color: white;
     margin-top: 1%;
-
   }
 
   .footerLink {
@@ -1071,17 +1068,16 @@
   }
 }
 
-
 /* --------------- appointmentPage --------------- */
 
 .apoointmentContainer {
-  background-image: url('../src/assets/apointmentBackground2.jpg');
+  background-image: url("../src/assets/apointmentBackground2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .apoointmentHeader {
-  color:white;
+  color: white;
   font-weight: bold;
   text-shadow: 0.25px 0.25px 6px black;
   font-size: xx-large;
@@ -1103,7 +1099,7 @@
   text-shadow: 0.25px 0.25px 4px black;
 }
 
-/* --- Validacion de inputs --- */
+/* ---------- Validacion de inputs ---------- */
 input:invalid {
   border: 2px solid yellow;
 }
@@ -1116,4 +1112,779 @@ select:invalid {
   color: yellow;
 }
 
+/*---------- InstitutionalPage ---------*/
 
+@media (min-width: 320px) {
+  .firstContainer {
+    margin-bottom: -20%;
+  }
+
+  .institutionalHeader1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    /* display: inline; */
+    margin-top: -10%;
+  }
+
+  .boltIcon {
+    background-color: white;
+    width: 14%;
+    border-radius: 50%;
+    padding: 4px;
+    display: inline;
+    margin-left: 35%;
+    box-shadow: inherit;
+    margin-top: -35%;
+  }
+
+  .orangeSection {
+    background-image: url("./assets/orange-pattern.svg");
+    background-repeat: repeat;
+    background-size: contain, auto;
+    background-position: 90% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 5%;
+  }
+
+  .institutionalHeader2 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 75%;
+    padding: 8%;
+    margin-bottom: 6%;
+  }
+
+  .institutionalButton {
+    background-color: #ffd900;
+    color: #ee256c;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 30;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .institutionalButton:hover {
+    background-color: #ee256c;
+  }
+
+  .logosContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+  }
+
+  .boxes {
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .institutionalLogos {
+    width: 60%;
+  }
+
+  .footerText {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 450;
+    margin-left: -80px;
+  }
+
+  .orangeSection2 {
+    background-image: url("./assets/orange-pattern.svg");
+    background-repeat: repeat;
+    background-size: contain, auto;
+    background-position: 20% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 2%;
+  }
+
+  .institutionalHeader3 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 85%;
+    padding: 6%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 375px) {
+  .firstContainer {
+    margin-bottom: -17%;
+  }
+
+  .institutionalHeader1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-top: -10%;
+  }
+
+  .boltIcon {
+    background-color: white;
+    width: 14%;
+    border-radius: 50%;
+    padding: 4px;
+    display: inline;
+    margin-left: 35%;
+    box-shadow: inherit;
+    margin-top: -28%;
+  }
+
+  .orangeSection {
+    background-image: url("./assets/orange-pattern.svg");
+    background-repeat: repeat;
+    background-size: contain, auto;
+    background-position: 90% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 5%;
+  }
+
+  .institutionalHeader2 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 75%;
+    padding: 8%;
+    margin-bottom: 6%;
+  }
+
+  .institutionalButton {
+    background-color: #ffd900;
+    color: #ee256c;
+    font-size: 20px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 30;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .institutionalButton:hover {
+    background-color: #ee256c;
+  }
+
+  .logosContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+  }
+
+  .boxes {
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .institutionalLogos {
+    width: 60%;
+  }
+
+  .footerText {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 450;
+    margin-left: -90px;
+  }
+
+  .orangeSection2 {
+    background-image: url("./assets/orange-pattern.svg");
+    background-repeat: repeat;
+    background-size: contain, auto;
+    background-position: 20% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 2%;
+  }
+
+  .institutionalHeader3 {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 85%;
+    padding: 6%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 412px) {
+  .firstContainer {
+    margin-bottom: -9%;
+  }
+
+  .institutionalHeader1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-top: -10%;
+    margin-left: 2%;
+  }
+
+  .boltIcon {
+    background-color: white;
+    width: 10%;
+    border-radius: 50%;
+    padding: 4px;
+    display: inline;
+    margin-left: 45%;
+    box-shadow: inherit;
+    margin-top: -1%;
+  }
+
+  .orangeSection {
+    background-image: url("./assets/orange-pattern.svg");
+    background-repeat: repeat;
+    background-size: contain, auto;
+    background-position: 90% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 5%;
+  }
+
+  .institutionalHeader2 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 75%;
+    padding: 8%;
+    margin-bottom: 6%;
+  }
+
+  .institutionalButton {
+    background-color: #ffd900;
+    color: #ee256c;
+    font-size: 20px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 30;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .institutionalButton:hover {
+    background-color: #ee256c;
+  }
+
+  .logosContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32%;
+  }
+
+  .boxes {
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .institutionalLogos {
+    width: 60%;
+  }
+
+  .footerText {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 450;
+    margin-left: -110px;
+  }
+
+  .orangeSection2 {
+    background-image: url("./assets/orange-pattern.svg");
+    background-repeat: repeat;
+    background-size: contain, auto;
+    background-position: 20% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 2%;
+  }
+
+  .institutionalHeader3 {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 85%;
+    padding: 6%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 425px) {
+  .firstContainer {
+    margin-bottom: -7%;
+  }
+
+  .institutionalHeader1 {
+    font-size: 31px;
+    font-weight: bold;
+    color: white;
+    margin-top: -10%;
+    margin-left: 2%;
+  }
+
+  .boltIcon {
+    background-color: white;
+    width: 10%;
+    border-radius: 50%;
+    padding: 4px;
+    display: inline;
+    margin-left: 45%;
+    box-shadow: inherit;
+    margin-top: -1%;
+  }
+
+  .orangeSection {
+    background-image: url("./assets/orange-pattern.svg");
+    background-repeat: repeat;
+    background-size: contain, auto;
+    background-position: 90% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 5%;
+  }
+
+  .institutionalHeader2 {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 75%;
+    padding: 6%;
+    margin-bottom: 6%;
+  }
+
+  .institutionalButton {
+    background-color: #ffd900;
+    color: #ee256c;
+    font-size: 24px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 30;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .institutionalButton:hover {
+    background-color: #ee256c;
+  }
+
+  .logosContainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+  }
+
+  .boxes {
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .institutionalLogos {
+    width: 60%;
+  }
+
+  .footerText {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 450;
+    margin-left: -130px;
+  }
+
+  .orangeSection2 {
+    background-image: url("./assets/orange-pattern.svg");
+    background-repeat: repeat;
+    background-size: contain, auto;
+    background-position: 20% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 2%;
+  }
+
+  .institutionalHeader3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 85%;
+    padding: 6%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .institutionalHeader1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    padding: 3%;
+    /* display: inline; */
+    margin-top: -6%;
+  }
+
+  .boltIcon {
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    display: inline;
+    margin-left: 85%;
+    margin-top: -22%;
+    box-shadow: inherit;
+  }
+
+  .orangeSection {
+    background-image: url("./assets/orange-pattern.svg");
+    background-repeat: repeat;
+    background-size: contain, auto;
+    background-position: 90% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 5%;
+  }
+
+  .institutionalHeader2 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 75%;
+    padding: 6%;
+    margin-bottom: 6%;
+  }
+
+  .institutionalButton {
+    background-color: #ffd900;
+    color: #ee256c;
+    font-size: 26px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .institutionalButton:hover {
+    background-color: #ee256c;
+  }
+
+  .logosContainer {
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+  }
+
+  .boxes {
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .institutionalLogos {
+    width: 70%;
+  }
+
+  .footerText {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: 450;
+    margin-left: -300px;
+  }
+
+  .orangeSection2 {
+    background-image: url("./assets/guys.png"), url("./assets/orange-pattern.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: contain, auto;
+    background-position: 90% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 5%;
+  }
+
+  .institutionalHeader3 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 75%;
+    padding: 6%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .firstContainer {
+    margin-bottom: -3%;
+  }
+
+  .institutionalHeader1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    padding: 3%;
+    margin-top: -3%;
+  }
+
+  .boltIcon {
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    display: inline;
+    margin-left: 70%;
+    margin-top: -14%;
+    box-shadow: inherit;
+  }
+
+  .orangeSection {
+    background-image: url("./assets/bikegirl.png"),
+      url("./assets/orange-pattern.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: contain, auto;
+    background-position: 90% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 1%;
+  }
+
+  .institutionalHeader2 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 40%;
+    padding: 2%;
+    text-align: right;
+  }
+
+  .institutionalButton {
+    background-color: #ffd900;
+    color: #ee256c;
+    font-size: 26px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: -20%;
+  }
+
+  .institutionalButton:hover {
+    background-color: #ee256c;
+  }
+
+  .logosContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxes {
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .institutionalLogos {
+    width: 60%;
+  }
+
+  .footerText {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 450;
+  }
+
+  .orangeSection2 {
+    background-image: url("./assets/guys.png"),
+      url("./assets/orange-pattern.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: contain, auto;
+    background-position: 20% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 2%;
+  }
+
+  .institutionalHeader3 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 23%;
+    padding: 3%;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 70%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .firstContainer {
+    margin-bottom: -1%;
+  }
+
+  .institutionalHeader1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    padding: 1%;
+    margin-top: -2%;
+  }
+
+  .boltIcon {
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    display: inline;
+    margin-left: 70%;
+    margin-top: -9%;
+    box-shadow: inherit;
+    width: 5%;
+  }
+
+  .orangeSection {
+    background-image: url("./assets/bikegirl.png"),
+      url("./assets/orange-pattern.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: contain, auto;
+    background-position: 90% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+  }
+
+  .institutionalHeader2 {
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 30%;
+    padding: 2%;
+    text-align: right;
+  }
+
+  .institutionalButton {
+    background-color: #ffd900;
+    color: #ee256c;
+    font-size: 26px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: -14%;
+  }
+
+  .institutionalButton:hover {
+    background-color: #ee256c;
+  }
+
+  .logosContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxes {
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .institutionalLogos {
+    width: 60%;
+  }
+
+  .footerText {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 450;
+  }
+
+  .orangeSection2 {
+    background-image: url("./assets/guys.png"),
+      url("./assets/orange-pattern.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: contain, auto;
+    background-position: 20% calc(100% + 25px), 0 0;
+    background-color: #f15a22;
+    padding-bottom: 2%;
+  }
+
+  .institutionalHeader3 {
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 130%;
+    color: white;
+    width: 30%;
+    padding: 3%;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 70%;
+  }
+}
