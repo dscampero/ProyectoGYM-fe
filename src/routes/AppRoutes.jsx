@@ -5,6 +5,7 @@ import HomeScreen from '../pages/HomeScreen'
 import LoginComponent from '../components/LoginComponent'
 import LessonsScreen from '../pages/LessonsScreen'
 import AppointmentScreen from '../pages/AppointmentScreen'
+import InstitutionalScreen from '../pages/InstitutionalScreen'
 
 const AppRoutes = () => {
     return (
@@ -13,6 +14,7 @@ const AppRoutes = () => {
             <Route exact path="/clases"component={LessonsScreen}/>
             <Route exact path="/login" component={LoginComponent}/>
             <Route exact path="/turnos"component={AppointmentScreen}/>
+            <Route exact path="/nosotros"component={InstitutionalScreen}/>
         </Router>
     )
 }
