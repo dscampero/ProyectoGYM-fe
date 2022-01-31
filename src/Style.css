@@ -1,167 +1,154 @@
 /* -----------Lesossons Screen----------- */
 /* Navbar Lessons */
-.divsb{
-    border: 10px;
+.divsb {
+  border: 10px;
 }
-.tittle1{
-    color: orangered;
+.tittle1 {
+  color: orangered;
 }
-.tittle{
-    color: #10c3d9;
+.tittle {
+  color: #10c3d9;
 }
-.tittle2{
-    color:white;
+.tittle2 {
+  color: white;
 }
-.buttonschedule{
-    border:unset;
-    background-color :#ee256c;
-
+.buttonschedule {
+  border: unset;
+  background-color: #ee256c;
 }
-.buttonschedule:hover{
-    background-color:#872145;
-    color:#8f8b14;
+.buttonschedule:hover {
+  background-color: #872145;
+  color: #8f8b14;
 }
-.buttonlogin{
-    border:unset;
-    border-radius: 40px;
-    background-color :#ee256c
-
+.buttonlogin {
+  border: unset;
+  border-radius: 40px;
+  background-color: #ee256c;
 }
-.buttonlogin:hover{
- background-color:#872145;
-    
+.buttonlogin:hover {
+  background-color: #872145;
 }
-.buttonscheduletittle{
-    text-decoration: none;
-    color:#ffd900;
+.buttonscheduletittle {
+  text-decoration: none;
+  color: #ffd900;
 }
-.colorbutton1{
-    background-color: orangered;
-    border:none
+.colorbutton1 {
+  background-color: orangered;
+  border: none;
 }
-.colorbutton1:hover{
-    background-color:rgb(231, 62, 1);
+.colorbutton1:hover {
+  background-color: rgb(231, 62, 1);
 }
-.backgroundbutton11{
-    background-image: url(./helpers/fondos_lessons/fondo1.png) ;
+.backgroundbutton11 {
+  background-image: url(./helpers/fondos_lessons/fondo1.png);
 }
-.colorbutton2{
-    background-color: #10c3d9;
-    border:none;
+.colorbutton2 {
+  background-color: #10c3d9;
+  border: none;
 }
-.colorbutton2:hover{
-    background-color: #0da5b9;
+.colorbutton2:hover {
+  background-color: #0da5b9;
 }
-.backgroundbutton22{
-
-    background-image: url(./helpers/fondos_lessons/fondo2.png) ;
-}   
-.colorbutton3{
-    background-color: #ffd900;
-    border:none;
+.backgroundbutton22 {
+  background-image: url(./helpers/fondos_lessons/fondo2.png);
 }
-.colorbutton3:hover{
-    background-color: #e7c503;
+.colorbutton3 {
+  background-color: #ffd900;
+  border: none;
 }
-.backgroundbutton33{
-
-    background-image: url(./helpers/fondos_lessons/fondo3.png) ;
-}   
-.colorbutton4{
-    background-color: #ee256c;
-    border:none;
-
+.colorbutton3:hover {
+  background-color: #e7c503;
 }
-.colorbutton4:hover{
-    background-color: #be2659;
-    border:none;
-
+.backgroundbutton33 {
+  background-image: url(./helpers/fondos_lessons/fondo3.png);
 }
-.backgroundbutton44{
-
-    background-image: url(./helpers/fondos_lessons/fondo4.png) ;
-}   
-.colorbutton5{
-    background-color: #05B8B2;
-    border:none;
+.colorbutton4 {
+  background-color: #ee256c;
+  border: none;
 }
-.colorbutton5:hover{
-    background-color: #049e99;
+.colorbutton4:hover {
+  background-color: #be2659;
+  border: none;
 }
-.backgroundbutton55{
-
-    background-image: url(./helpers/fondos_lessons/fondo5.png) ;
-}   
-.colorbutton6{
-    background-color: #95C543;
-    border:none;
+.backgroundbutton44 {
+  background-image: url(./helpers/fondos_lessons/fondo4.png);
 }
-.colorbutton6:hover{
-    background-color: #7aa137;
+.colorbutton5 {
+  background-color: #05b8b2;
+  border: none;
 }
-.backgroundbutton66{
-    background-image: url(./helpers/fondos_lessons/fondo6.png) ;
-}   
-.colorbutton7{
-    background-color: #7D2A8F;
-    border:none;
+.colorbutton5:hover {
+  background-color: #049e99;
 }
-.colorbutton7:hover{
-    background-color: #5d206b;
+.backgroundbutton55 {
+  background-image: url(./helpers/fondos_lessons/fondo5.png);
 }
-.backgroundbutton77{
-
-    background-image: url(./helpers/fondos_lessons/fondo7.png) ;
-}   
+.colorbutton6 {
+  background-color: #95c543;
+  border: none;
+}
+.colorbutton6:hover {
+  background-color: #7aa137;
+}
+.backgroundbutton66 {
+  background-image: url(./helpers/fondos_lessons/fondo6.png);
+}
+.colorbutton7 {
+  background-color: #7d2a8f;
+  border: none;
+}
+.colorbutton7:hover {
+  background-color: #5d206b;
+}
+.backgroundbutton77 {
+  background-image: url(./helpers/fondos_lessons/fondo7.png);
+}
 /* background card */
-.backgroundcard1{
-    background-color: orangered;
-
+.backgroundcard1 {
+  background-color: orangered;
 }
-.backgroundcard2{
-    background-color: #10c3d9;
+.backgroundcard2 {
+  background-color: #10c3d9;
 }
-.backgroundcard3{
-    background-color: #ffd900;
-
+.backgroundcard3 {
+  background-color: #ffd900;
 }
-.backgroundcard4{
-    background-color: #ee256c;
-
+.backgroundcard4 {
+  background-color: #ee256c;
 }
-.backgroundcard5{
-    background-color: #05B8B2;
+.backgroundcard5 {
+  background-color: #05b8b2;
 }
-.backgroundcard6{
-    background-color: #95C543;
+.backgroundcard6 {
+  background-color: #95c543;
 }
-.backgroundcard7{
-    background-color: #7D2A8F;
+.backgroundcard7 {
+  background-color: #7d2a8f;
 }
 /* button mira el video */
-.border2{
-    border-color: #10c3d9;
-    color:#10c3d9;
+.border2 {
+  border-color: #10c3d9;
+  color: #10c3d9;
 }
-.border3{
-    border-color:#ee256c;
-    color:#ee256c;
+.border3 {
+  border-color: #ee256c;
+  color: #ee256c;
 }
-.border4{
-    border-color:#95C543;
-    color:#95C543;
+.border4 {
+  border-color: #95c543;
+  color: #95c543;
 }
-.border5{
-    border-color:#7D2A8F;
-    color:#7D2A8F;
+.border5 {
+  border-color: #7d2a8f;
+  color: #7d2a8f;
 }
-.border6{
-    border-color:#ffd900;
-    color:#ffd900;
+.border6 {
+  border-color: #ffd900;
+  color: #ffd900;
 }
-.border7{
-    border-color:#05B8B2;
-    color:#05B8B2;
+.border7 {
+  border-color: #05b8b2;
+  color: #05b8b2;
 }
 /* -----------Login Screen----------- */
 
@@ -172,7 +159,6 @@
 .registerContainer {
   padding: 0 2rem;
 }
-
 
 /*------- Login ------- */
 
@@ -225,15 +211,15 @@
 #formBody {
   margin: 0;
   padding: 0;
-background-color: #10c3d9;
+  background-color: #10c3d9;
   background-size: cover;
 }
 
 .input-group-text {
   background: #ee256c;
-  color: white ;
-  border: 0 ;
-  border-radius: 0.25rem 0 0 0.25rem ;
+  color: white;
+  border: 0;
+  border-radius: 0.25rem 0 0 0.25rem;
   height: 100%;
 }
 .input_user,
@@ -267,1826 +253,1127 @@ background-color: #10c3d9;
   font-weight: bold;
   color: white;
 }
-  @media only screen and (min-width: 0px) and (max-width: 767px){
-    #formBody{
-        background-image: url('./helpers/images_login/backgroundloginphone.jpg');
-        height: 529px;
-        
-    }
-    }
-    @media only screen and (min-width: 768px) and (max-width: 900px){
-        #formBody{
-            background-image: url('./helpers/images_login/backgroundlogin.png');
-            height: 564px;
-        }
-        }
-  @media only screen and (min-width: 901px) and (max-width: 1440px){
-    #formBody{
-        background-image: url('./helpers/images_login/backgroundlogin.png');
-        height: 625px;
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  #formBody {
+    background-image: url("./helpers/images_login/backgroundloginphone.jpg");
+    height: 529px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  #formBody {
+    background-image: url("./helpers/images_login/backgroundlogin.png");
+    height: 564px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1440px) {
+  #formBody {
+    background-image: url("./helpers/images_login/backgroundlogin.png");
+    height: 625px;
+  }
+}
 
-    }
-    }
-    
-    /* --------------- HomeNavbar --------------- */
+/* --------------- HomeNavbar --------------- */
 
 .navbarButton {
+  background-color: #ffd900;
+  color: #ee256c;
+  font-weight: bold;
+  border: unset;
+  border-radius: 20px;
+  box-shadow: inherit;
+}
+
+.navbarButton:hover {
+  background-color: #ee256c;
+}
+
+@media (min-width: 240px) {
+  #navbarLogo {
+    width: 40%;
+  }
+}
+
+@media (min-width: 320px) {
+  #navbarLogo {
+    width: 40%;
+  }
+}
+
+@media (min-width: 375px) {
+  #navbarLogo {
+    width: 40%;
+  }
+}
+
+@media (min-width: 425px) {
+  #navbarLogo {
+    width: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  #navbarLogo {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #navbarLogo {
+    width: 12%;
+  }
+}
+
+/*--------------- HomePromoBanner --------------- */
+
+@media (min-width: 320px) {
+  .bannerfull {
+    display: none;
+  }
+
+  .bannerMobile {
+    position: relative;
+  }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-left: 14px;
+    margin-top: -90%;
+    /* top: 0 */
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0%;
+    text-shadow: 0.5px 0.5px 8px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    display: inline;
+    align-items: center;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-top: 4%;
+  }
+
+  li {
+    display: none;
+  }
+
+  .bannerbutton {
     background-color: #ffd900;
-    color: #ee256c;
+    color: #7d2a8f;
+    font-size: 20px;
     font-weight: bold;
     border: unset;
     border-radius: 20px;
-    box-shadow: inherit;
+    box-shadow: 0.1px 1px 2px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 1%;
+    margin-left: 13%;
   }
-  
-  .navbarButton:hover {
+
+  .bannerbutton:hover {
     background-color: #ee256c;
   }
-  
-  @media (min-width: 240px) {
-    #navbarLogo {
-      width: 40%;
-    }
+}
+
+@media (min-width: 375px) {
+  .bannerFull {
+    display: none;
   }
-  
-  @media (min-width: 320px) {
-    #navbarLogo {
-      width: 40%;
-    }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-top: -85%;
+    margin-left: 10px;
   }
-  
-  @media (min-width: 375px) {
-    #navbarLogo {
-      width: 40%;
-    }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: -3%;
+    text-shadow: 0.5px 0.5px 8px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
-  
-  @media (min-width: 425px) {
-    #navbarLogo {
-      width: 40%;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    #navbarLogo {
-      width: 40%;
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    #navbarLogo {
-      width: 12%;
-    }
-  }
-  
-  /*--------------- HomePromoBanner --------------- */
-  
-  @media (min-width: 320px) {
-    .bannerfull {
-      display: none;
-    }
-  
-    .bannerMobile {
-      position: relative;
-    }
-  
-    .bannerContainer {
-      position: absolute;
-      z-index: 30;
-      margin-left: 14px;
-      margin-top: -90%;
-      /* top: 0 */
-    }
-  
-    .bannerHeader {
-      color: #ffd900;
-      font-weight: bold;
-      font-size: 40px;
-      margin-bottom: 0%;
-      text-shadow: 0.5px 0.5px 8px black;
-      align-items: center;
-      display: flex;
-      justify-content: center;
-    }
-  
-    .bannerPrice {
-      color: white;
-      font-weight: bold;
-      font-size: 45px;
-      display: inline;
-      align-items: center;
-      text-shadow: 0.5px 0.5px 8px black;
-    }
-  
-    .bannerPriceMonth {
-      color: white;
-      font-weight: bold;
-      font-size: 25px;
-      display: inline;
-      margin-left: 10px;
-      text-shadow: 0.5px 0.5px 8px black;
-    }
-  
-    .bannerBenefits {
-      color: #ffd900;
-      font-size: 15px;
-      font-weight: bold;
-      border-top: 3px solid #ffd900;
-      border-bottom: 3px solid #ffd900;
-      text-shadow: 0.5px 0.5px 8px black;
-      margin-top: 4%;
-    }
-  
-    li {
-      display: none;
-    }
-  
-    .bannerbutton {
-      background-color: #ffd900;
-      color: #7d2a8f;
-      font-size: 20px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 20px;
-      box-shadow: 0.1px 1px 2px black;
-      position: absolute;
-      z-index: 30;
-      padding-left: 45px;
-      padding-right: 45px;
-      margin-top: 1%;
-      margin-left: 13%;
-    }
-  
-    .bannerbutton:hover {
-      background-color: #ee256c;
-    }
-  }
-  
-  @media (min-width: 375px) {
-    .bannerFull {
-      display: none;
-    }
-  
-    .bannerContainer {
-      position: absolute;
-      z-index: 30;
-      margin-top: -85%;
-      margin-left: 10px;
-    }
-  
-    .bannerHeader {
-      color: #ffd900;
-      font-weight: bold;
-      font-size: 50px;
-      margin-bottom: -3%;
-      text-shadow: 0.5px 0.5px 8px black;
-      align-items: center;
-      display: flex;
-      justify-content: center;
-    }
-  
-    .bannerPrice {
-      color: white;
-      font-weight: bold;
-      font-size: 48px;
-      display: inline;
-      text-shadow: 0.5px 0.5px 8px black;
-      margin-left: 8%;
-    }
-  
-    .bannerPriceMonth {
-      color: white;
-      font-weight: bold;
-      font-size: 25px;
-      display: inline;
-      margin-left: 10px;
-      text-shadow: 0.5px 0.5px 8px black;
-    }
-  
-    .bannerBenefits {
-      color: #ffd900;
-      font-size: 18px;
-      font-weight: bold;
-      border-top: 3px solid #ffd900;
-      border-bottom: 3px solid #ffd900;
-      text-shadow: 0.5px 0.5px 8px black;
-      margin-top: 4%;
-    }
-  
-    li {
-      display: none;
-    }
-  
-    .bannerbutton {
-      background-color: #ffd900;
-      color: #7d2a8f;
-      font-size: 20px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 20px;
-      box-shadow: 0.1px 1px 2px black;
-      position: absolute;
-      z-index: 30;
-      padding-left: 45px;
-      padding-right: 45px;
-      margin-top: 2%;
-      margin-left: 20%;
-    }
-  
-    .bannerbutton:hover {
-      background-color: #ee256c;
-    }
-  }
-  
-  @media (min-width: 412px) {
-    .bannerFull {
-      display: none;
-    }
-  
-    .bannerContainer {
-      position: absolute;
-      z-index: 30;
-      margin-top: -80%;
-      margin-left: 8%;
-    }
-  
-    .bannerHeader {
-      color: #ffd900;
-      font-weight: bold;
-      font-size: 50px;
-      margin-bottom: -3%;
-      text-shadow: 0.5px 0.5px 8px black;
-      align-items: center;
-      display: flex;
-      justify-content: center;
-    }
-  
-    .bannerPrice {
-      color: white;
-      font-weight: bold;
-      font-size: 48px;
-      display: inline;
-      text-shadow: 0.5px 0.5px 8px black;
-      margin-left: 8%;
-    }
-  
-    .bannerPriceMonth {
-      color: white;
-      font-weight: bold;
-      font-size: 25px;
-      display: inline;
-      margin-left: 10px;
-      text-shadow: 0.5px 0.5px 8px black;
-    }
-  
-    .bannerBenefits {
-      color: #ffd900;
-      font-size: 18px;
-      font-weight: bold;
-      border-top: 3px solid #ffd900;
-      border-bottom: 3px solid #ffd900;
-      text-shadow: 0.5px 0.5px 8px black;
-      margin-top: 4%;
-    }
-  
-    li {
-      display: none;
-    }
-  
-    .bannerbutton {
-      background-color: #ffd900;
-      color: #7d2a8f;
-      font-size: 20px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 20px;
-      box-shadow: 0.1px 1px 2px black;
-      position: absolute;
-      z-index: 30;
-      padding-left: 45px;
-      padding-right: 45px;
-      margin-top: 2%;
-      margin-left: 19%;
-    }
-  
-    .bannerbutton:hover {
-      background-color: #ee256c;
-    }
-  }
-  
-  @media (min-width: 425px) {
-    .bannerFull {
-      display: none;
-    }
-  
-    .bannerContainer {
-      position: absolute;
-      z-index: 30;
-      margin-top: -82%;
-      margin-left: 16px;
-    }
-  
-    .bannerHeader {
-      color: #ffd900;
-      font-weight: bold;
-      font-size: 55px;
-      margin-bottom: -3%;
-      text-shadow: 0.5px 0.5px 8px black;
-      align-items: center;
-      display: flex;
-      justify-content: center;
-    }
-  
-    .bannerPrice {
-      color: white;
-      font-weight: bold;
-      font-size: 48px;
-      display: inline;
-      text-shadow: 0.5px 0.5px 8px black;
-      margin-left: 14%;
-    }
-  
-    .bannerPriceMonth {
-      color: white;
-      font-weight: bold;
-      font-size: 25px;
-      display: inline;
-      margin-left: 10px;
-      text-shadow: 0.5px 0.5px 8px black;
-    }
-  
-    .bannerBenefits {
-      color: #ffd900;
-      font-size: 20px;
-      font-weight: bold;
-      border-top: 3px solid #ffd900;
-      border-bottom: 3px solid #ffd900;
-      text-shadow: 0.5px 0.5px 8px black;
-      margin-top: 4%;
-    }
-  
-    li {
-      display: none;
-    }
-  
-    .bannerbutton {
-      background-color: #ffd900;
-      color: #7d2a8f;
-      font-size: 20px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 20px;
-      box-shadow: 0.1px 1px 2px black;
-      position: absolute;
-      z-index: 30;
-      padding-left: 45px;
-      padding-right: 45px;
-      margin-top: 3%;
-      margin-left: 24%;
-    }
-  
-    .bannerbutton:hover {
-      background-color: #ee256c;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .bannerMobile {
-      display: none;
-    }
-  
-    .bannerfull {
-      display: inherit;
-    }
-  
-    .bannerContainer {
-      position: absolute;
-      z-index: 30;
-      margin-top: -31%;
-    }
-  
-    .bannerHeader {
-      color: #ffd900;
-      font-weight: bold;
-      font-size: 40px;
-      margin-bottom: -3%;
-      text-shadow: 0.5px 0.5px 8px black;
-      align-items: center;
-      display: flex;
-      justify-content: center;
-    }
-  
-    .bannerPrice {
-      color: white;
-      font-weight: bold;
-      font-size: 33px;
-      display: inline;
-      text-shadow: 0.5px 0.5px 8px black;
-      margin-left: 14%;
-    }
-  
-    .bannerPriceMonth {
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
-      display: inline;
-      margin-left: 10px;
-      text-shadow: 0.5px 0.5px 8px black;
-    }
-  
-    .bannerBenefits {
-      color: #ffd900;
-      font-size: 15px;
-      font-weight: bold;
-      border-top: 3px solid #ffd900;
-      border-bottom: 3px solid #ffd900;
-      text-shadow: 0.5px 0.5px 8px black;
-      margin-top: 4%;
-    }
-  
-    li {
-      display: none;
-    }
-  
-    .bannerbutton {
-      background-color: #ffd900;
-      color: #7d2a8f;
-      font-size: 16px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 20px;
-      box-shadow: 0.1px 1px 2px black;
-      position: absolute;
-      z-index: 30;
-      padding-left: 45px;
-      padding-right: 45px;
-      margin-top: 1%;
-      margin-left: 16%;
-    }
-  
-    .bannerbutton:hover {
-      background-color: #ee256c;
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .bannerMobile {
-      display: none;
-    }
-  
-    .bannerContainer {
-      position: absolute;
-      z-index: 30;
-      margin-top: -27%;
-    }
-  
-    .bannerHeader {
-      color: #ffd900;
-      font-weight: bold;
-      font-size: 50px;
-      margin-bottom: -3%;
-      text-shadow: 0.5px 0.5px 8px black;
-      align-items: center;
-      display: flex;
-      justify-content: center;
-    }
-  
-    .bannerPrice {
-      color: white;
-      font-weight: bold;
-      font-size: 33px;
-      display: inline;
-      text-shadow: 0.5px 0.5px 8px black;
-      margin-left: 14%;
-    }
-  
-    .bannerPriceMonth {
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
-      display: inline;
-      margin-left: 10px;
-      text-shadow: 0.5px 0.5px 8px black;
-    }
-  
-    .bannerBenefits {
-      color: #ffd900;
-      font-size: 18px;
-      font-weight: bold;
-      border-top: 3px solid #ffd900;
-      border-bottom: 3px solid #ffd900;
-      text-shadow: 0.5px 0.5px 8px black;
-      margin-top: 4%;
-    }
-  
-    li {
-      display: none;
-    }
-  
-    .bannerbutton {
-      background-color: #ffd900;
-      color: #7d2a8f;
-      font-size: 20px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 20px;
-      box-shadow: 0.1px 1px 2px black;
-      position: absolute;
-      z-index: 30;
-      padding-left: 45px;
-      padding-right: 45px;
-      margin-top: 1%;
-      margin-left: 16%;
-    }
-  
-    .bannerbutton:hover {
-      background-color: #ee256c;
-    }
-  }
-  
-  @media (min-width: 1440px) {
-    .bannerMobile {
-      display: none;
-    }
-  
-    .bannerContainer {
-      z-index: 30;
-      margin-top: -30%;
-    }
-  
-    .bannerHeader {
-      color: #ffd900;
-      font-weight: bold;
-      font-size: 60px;
-      margin-bottom: 0%;
-    }
-  
-    .bannerPrice {
-      color: white;
-      font-weight: bold;
-      font-size: 55px;
-      display: inline;
-      align-items: center;
-    }
-  
-    .bannerPriceMonth {
-      color: white;
-      font-weight: bold;
-      font-size: 25px;
-      display: inline;
-      margin-left: 15px;
-    }
-  
-    .bannerBenefits {
-      color: #ffd900;
-      font-size: 23px;
-      border-top: 3px solid #ffd900;
-      border-bottom: 3px solid #ffd900;
-      padding: 3px;
-      margin-top: 4%;
-    }
-  
-    li {
-      line-height: 2;
-      color: white;
-      font-weight: 550;
-      font-size: 19px;
-      display: inline-flex;
-      white-space: nowrap;
-      margin-inline-end: 10px;
-      text-shadow: 0.5px 0.5px 8px black;
-    }
-    .bannerList {
-      position: absolute;
-      z-index: 30;
-    }
-  
-    .bannerbutton {
-      background-color: #ffd900;
-      color: #7d2a8f;
-      font-size: 21px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 20px;
-      box-shadow: 0.05px 0.05px 4px black;
-      position: absolute;
-      z-index: 30;
-      padding-left: 45px;
-      padding-right: 45px;
-      margin-top: 29%;
-      margin-left: 20%;
-    }
-  
-    .bannerbutton:hover {
-      background-color: #ee256c;
-    }
-  }
-  
-  /* --------------- HomeTurnBanner --------------- */
-  
-  @media (min-width: 320px) {
-    .turnContainer {
-      background-color: #10c3d9;
-      background-image: url("./assets/stripsBanner.png");
-      background-size: contain;
-      position: relative;
-    }
-  
-    .turnTitle {
-      color: white;
-      font-size: 30px;
-      font-weight: bold;
-      text-shadow: 0.5px 0.5px 3px black;
-      margin-top: 2%;
-    }
-  
-    .turnSubtitle {
-      color: white;
-      font-size: 15px;
-      text-shadow: 0.5px 0.5px 3px black;
-      margin-top: -4%;
-    }
-  
-    .turnButton {
-      background-color: #7d2a8f;
-      color: white;
-      font-weight: bold;
-      font-size: small;
-      border: unset;
-      border-radius: 20px;
-      box-shadow: inherit;
-      padding-left: 3%;
-      padding-right: 3%;
-      margin-top: -2%;
-      margin-bottom: 3%;
-    }
-  
-    .turnButton:hover {
-      background-color: #7d2a8f;
-    }
-  }
-  
-  @media (min-width: 375px) {
-    .turnContainer {
-      background-color: #10c3d9;
-      background-image: url("./assets/stripsBanner.png");
-      background-size: contain;
-    }
-  
-    .turnTitle {
-      color: white;
-      font-size: 23px;
-      font-weight: bold;
-      text-shadow: 0.5px 0.5px 3px black;
-      margin-top: 2%;
-    }
-  
-    .turnSubtitle {
-      color: white;
-      font-size: 12px;
-      text-shadow: 0.5px 0.5px 3px black;
-      margin-top: -4%;
-    }
-  
-    .turnButton {
-      background-color: #7d2a8f;
-      color: white;
-      font-weight: bold;
-      font-size: 10px;
-      border: unset;
-      border-radius: 20px;
-      box-shadow: inherit;
-      padding-left: 3%;
-      padding-right: 3%;
-      margin-top: -2%;
-      margin-bottom: 3%;
-    }
-  
-    .turnButton:hover {
-      background-color: #7d2a8f;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .turnContainer {
-      background-color: #10c3d9;
-      background-image: url("./assets/stripsBanner.png");
-      background-size: cover;
-    }
-  
-    .textContainer {
-      margin-bottom: 0%;
-    }
-  
-    .turnTitle {
-      color: white;
-      font-size: 42px;
-      font-weight: bold;
-      text-shadow: 0.5px 0.5px 3px black;
-      margin-top: 5%;
-    }
-  
-    .turnSubtitle {
-      color: white;
-      font-size: 24px;
-      text-shadow: 0.5px 0.5px 3px black;
-      margin-top: -2%;
-    }
-  
-    .turnButton {
-      background-color: #7d2a8f;
-      color: white;
-      font-weight: bold;
-      font-size: medium;
-      border: unset;
-      border-radius: 20px;
-      box-shadow: inherit;
-      padding-left: 3%;
-      padding-right: 3%;
-    }
-  
-    .turnButton:hover {
-      background-color: #7d2a8f;
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .turnContainer {
-      background-color: #10c3d9;
-      background-image: url("./assets/stripsBanner.png");
-      background-size: cover;
-    }
-  
-    .turnTitle {
-      color: white;
-      font-size: 42px;
-      font-weight: bold;
-      text-shadow: 0.5px 0.5px 3px black;
-      margin-top: 4%;
-    }
-  
-    .turnSubtitle {
-      color: white;
-      font-size: 22px;
-      text-shadow: 0.5px 0.5px 3px black;
-      margin-top: -1%;
-    }
-  
-    .turnButton {
-      background-color: #7d2a8f;
-      color: white;
-      font-weight: bold;
-      font-size: large;
-      border: unset;
-      border-radius: 20px;
-      box-shadow: inherit;
-      padding-top: 0.5%;
-      padding-left: 2%;
-      padding-right: 2%;
-      margin-top: 0%;
-    }
-  
-    .turnButton:hover {
-      background-color: #7d2a8f;
-    }
-  }
-  
-  @media (min-width: 1440px) {
-    .turnContainer {
-      background-color: #10c3d9;
-      background-image: url("./assets/stripsBanner.png");
-      background-size: cover;
-    }
-  
-    .turnTitle {
-      color: white;
-      font-size: 60px;
-      font-weight: bold;
-      text-shadow: 0.5px 0.5px 3px black;
-      margin-top: 3%;
-    }
-  
-    .turnSubtitle {
-      color: white;
-      font-size: 30px;
-      text-shadow: 0.5px 0.5px 3px black;
-      margin-top: -1%;
-    }
-  
-    .turnButton {
-      background-color: #7d2a8f;
-      color: white;
-      font-weight: bold;
-      font-size: x-large;
-      border: unset;
-      border-radius: 25px;
-      box-shadow: inherit;
-      padding-top: 0.25%;
-      padding-left: 2%;
-      padding-right: 2%;
-      margin-top: 0.5%;
-    }
-  
-    .turnButton:hover {
-      background-color: #7d2a8f;
-    }
-  }
-  
-  /* --------------- Footer --------------- */
-  
-  @media (min-width: 320px) {
-    .footerLogo {
-      display: flex;
-      align-items: center;
-      width: 80%;
-      margin-bottom: 1%;
-      margin-left: 6%;
-    }
-  
-    .sloganLogo {
-      display: flex;
-      align-items: center;
-      font-weight: bold;
-      font-family: Arial, Helvetica, sans-serif;
-      color: white;
-      font-size: 13px;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 6%;
-    }
-  
-    .footerTextHeader {
-      font-size: 19px;
-      color: white;
-    }
-  
-    #footerSocialMedia {
-      text-decoration: none;
-      margin-bottom: 1%;
-      font-size: xx-large;
-      color: white;
-      margin-top: 1%;
-    }
-  
-    .footerLink {
-      text-decoration: none;
-      color: #ffd900;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .footerLogo {
-      display: flex;
-      align-items: center;
-      width: 80%;
-      margin-bottom: 1%;
-      margin-left: 6%;
-    }
-  
-    .footerDivider {
-      display: none;
-    }
-  
-    .sloganLogo {
-      display: flex;
-      align-items: center;
-      font-weight: bold;
-      font-family: Arial, Helvetica, sans-serif;
-      color: white;
-      font-size: 12px;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 6%;
-    }
-  
-    .footerTextHeader {
-      font-size: 15px;
-      color: white;
-      margin-top: 4%;
-    }
-  
-    #footerSocialMedia {
-      text-decoration: none;
-      margin-bottom: 1%;
-      font-size: x-large;
-      color: white;
-      margin-top: 1%;
-    }
-  
-    .footerLink {
-      text-decoration: none;
-      color: #ffd900;
-      font-size: 15px;
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .footerLogo {
-      display: flex;
-      align-items: center;
-      width: 80%;
-      margin-bottom: 1%;
-      margin-left: 6%;
-    }
-  
-    .footerDivider {
-      display: none;
-    }
-  
-    .sloganLogo {
-      display: flex;
-      align-items: center;
-      font-weight: bold;
-      font-family: Arial, Helvetica, sans-serif;
-      color: white;
-      font-size: 15px;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 6%;
-    }
-  
-    .footerTextHeader {
-      font-size: 20px;
-      color: white;
-      margin-top: 4%;
-    }
-  
-    #footerSocialMedia {
-      text-decoration: none;
-      margin-bottom: 1%;
-      font-size: xx-large;
-      color: white;
-      margin-top: 1%;
-    }
-  
-    .footerLink {
-      text-decoration: none;
-      color: #ffd900;
-      font-size: 15px;
-    }
-  }
-  
-  @media (min-width: 1440px) {
-    .footerLogo {
-      display: flex;
-      align-items: center;
-      width: 50%;
-      margin-bottom: 1%;
-      margin-left: 6%;
-      margin-top: 6%;
-    }
-  
-    .footerDivider {
-      display: none;
-    }
-  
-    .sloganLogo {
-      font-weight: bold;
-      font-family: Arial, Helvetica, sans-serif;
-      color: white;
-      font-size: 17px;
-      margin-left: -37%;
-      margin-bottom: 6%;
-    }
-  
-    .footerTextHeader {
-      font-size: 22px;
-      color: white;
-      margin-top: 4%;
-    }
-  
-    #footerSocialMedia {
-      text-decoration: none;
-      margin-bottom: 1%;
-      font-size: xx-large;
-      color: white;
-      margin-top: 1%;
-    }
-  
-    .footerLink {
-      text-decoration: none;
-      color: #ffd900;
-      font-size: 16px;
-    }
-  }
-  
-  /* --------------- appointmentPage --------------- */
-  
-  .apoointmentContainer {
-    background-image: url("../src/assets/apointmentBackground2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .apoointmentHeader {
+
+  .bannerPrice {
     color: white;
     font-weight: bold;
-    text-shadow: 0.25px 0.25px 6px black;
-    font-size: xx-large;
-    margin-bottom: 2%;
+    font-size: 48px;
+    display: inline;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-left: 8%;
   }
-  .apoointmentSubHeader {
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-top: 4%;
+  }
+
+  li {
+    display: none;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 20px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.1px 1px 2px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 2%;
+    margin-left: 20%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
+
+@media (min-width: 412px) {
+  .bannerFull {
+    display: none;
+  }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-top: -80%;
+    margin-left: 8%;
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: -3%;
+    text-shadow: 0.5px 0.5px 8px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    display: inline;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-left: 8%;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-top: 4%;
+  }
+
+  li {
+    display: none;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 20px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.1px 1px 2px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 2%;
+    margin-left: 19%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
+
+@media (min-width: 425px) {
+  .bannerFull {
+    display: none;
+  }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-top: -82%;
+    margin-left: 16px;
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 55px;
+    margin-bottom: -3%;
+    text-shadow: 0.5px 0.5px 8px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    display: inline;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-left: 14%;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-top: 4%;
+  }
+
+  li {
+    display: none;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 20px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.1px 1px 2px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 3%;
+    margin-left: 24%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
+
+@media (min-width: 768px) {
+  .bannerMobile {
+    display: none;
+  }
+
+  .bannerfull {
+    display: inherit;
+  }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-top: -31%;
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: -3%;
+    text-shadow: 0.5px 0.5px 8px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 33px;
+    display: inline;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-left: 14%;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-top: 4%;
+  }
+
+  li {
+    display: none;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.1px 1px 2px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 1%;
+    margin-left: 16%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bannerMobile {
+    display: none;
+  }
+
+  .bannerContainer {
+    position: absolute;
+    z-index: 30;
+    margin-top: -27%;
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: -3%;
+    text-shadow: 0.5px 0.5px 8px black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 33px;
+    display: inline;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-left: 14%;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    text-shadow: 0.5px 0.5px 8px black;
+    margin-top: 4%;
+  }
+
+  li {
+    display: none;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 20px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.1px 1px 2px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 1%;
+    margin-left: 16%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
+
+@media (min-width: 1440px) {
+  .bannerMobile {
+    display: none;
+  }
+
+  .bannerContainer {
+    z-index: 30;
+    margin-top: -30%;
+  }
+
+  .bannerHeader {
+    color: #ffd900;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 0%;
+  }
+
+  .bannerPrice {
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    display: inline;
+    align-items: center;
+  }
+
+  .bannerPriceMonth {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline;
+    margin-left: 15px;
+  }
+
+  .bannerBenefits {
+    color: #ffd900;
+    font-size: 23px;
+    border-top: 3px solid #ffd900;
+    border-bottom: 3px solid #ffd900;
+    padding: 3px;
+    margin-top: 4%;
+  }
+
+  li {
+    line-height: 2;
+    color: white;
+    font-weight: 550;
+    font-size: 19px;
+    display: inline-flex;
+    white-space: nowrap;
+    margin-inline-end: 10px;
+    text-shadow: 0.5px 0.5px 8px black;
+  }
+  .bannerList {
+    position: absolute;
+    z-index: 30;
+  }
+
+  .bannerbutton {
+    background-color: #ffd900;
+    color: #7d2a8f;
+    font-size: 21px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0.05px 0.05px 4px black;
+    position: absolute;
+    z-index: 30;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 29%;
+    margin-left: 20%;
+  }
+
+  .bannerbutton:hover {
+    background-color: #ee256c;
+  }
+}
+
+/* --------------- HomeTurnBanner --------------- */
+
+@media (min-width: 320px) {
+  .turnContainer {
+    background-color: #10c3d9;
+    background-image: url("./assets/stripsBanner.png");
+    background-size: contain;
+    position: relative;
+  }
+
+  .turnTitle {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: 2%;
+  }
+
+  .turnSubtitle {
+    color: white;
+    font-size: 15px;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: -4%;
+  }
+
+  .turnButton {
+    background-color: #7d2a8f;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: inherit;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: -2%;
+    margin-bottom: 3%;
+  }
+
+  .turnButton:hover {
+    background-color: #7d2a8f;
+  }
+}
+
+@media (min-width: 375px) {
+  .turnContainer {
+    background-color: #10c3d9;
+    background-image: url("./assets/stripsBanner.png");
+    background-size: contain;
+  }
+
+  .turnTitle {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: 2%;
+  }
+
+  .turnSubtitle {
+    color: white;
+    font-size: 12px;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: -4%;
+  }
+
+  .turnButton {
+    background-color: #7d2a8f;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: inherit;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: -2%;
+    margin-bottom: 3%;
+  }
+
+  .turnButton:hover {
+    background-color: #7d2a8f;
+  }
+}
+
+@media (min-width: 768px) {
+  .turnContainer {
+    background-color: #10c3d9;
+    background-image: url("./assets/stripsBanner.png");
+    background-size: cover;
+  }
+
+  .textContainer {
+    margin-bottom: 0%;
+  }
+
+  .turnTitle {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: 5%;
+  }
+
+  .turnSubtitle {
+    color: white;
+    font-size: 24px;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: -2%;
+  }
+
+  .turnButton {
+    background-color: #7d2a8f;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: inherit;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .turnButton:hover {
+    background-color: #7d2a8f;
+  }
+}
+
+@media (min-width: 1024px) {
+  .turnContainer {
+    background-color: #10c3d9;
+    background-image: url("./assets/stripsBanner.png");
+    background-size: cover;
+  }
+
+  .turnTitle {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: 4%;
+  }
+
+  .turnSubtitle {
+    color: white;
+    font-size: 22px;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: -1%;
+  }
+
+  .turnButton {
+    background-color: #7d2a8f;
+    color: white;
     font-weight: bold;
     font-size: large;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: inherit;
+    padding-top: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 0%;
   }
-  
-  .coso {
-    background-color: #2e4d6ba1;
+
+  .turnButton:hover {
+    background-color: #7d2a8f;
   }
-  
-  .inputText {
+}
+
+@media (min-width: 1440px) {
+  .turnContainer {
+    background-color: #10c3d9;
+    background-image: url("./assets/stripsBanner.png");
+    background-size: cover;
+  }
+
+  .turnTitle {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: 3%;
+  }
+
+  .turnSubtitle {
+    color: white;
+    font-size: 30px;
+    text-shadow: 0.5px 0.5px 3px black;
+    margin-top: -1%;
+  }
+
+  .turnButton {
+    background-color: #7d2a8f;
     color: white;
     font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 0.25px 0.25px 4px black;
+    font-size: x-large;
+    border: unset;
+    border-radius: 25px;
+    box-shadow: inherit;
+    padding-top: 0.25%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 0.5%;
   }
-  
-  /* ---------- Validacion de inputs ---------- */
-  input:invalid {
-    border: 2px solid yellow;
+
+  .turnButton:hover {
+    background-color: #7d2a8f;
   }
-  
-  textArea:invalid {
-    border: 2px solid yellow;
+}
+
+/* --------------- Footer --------------- */
+
+@media (min-width: 320px) {
+  .footerLogo {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 1%;
+    margin-left: 6%;
   }
-  
-  select:invalid {
-    color: yellow;
+
+  .sloganLogo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6%;
   }
-  
-  /---------- InstitutionalPage ---------/
-  
-  @media (min-width: 320px) {
-    .firstContainer {
-      margin-bottom: -20%;
-    }
-  
-    .institutionalHeader1 {
-      font-size: 30px;
-      font-weight: bold;
-      color: white;
-      /* display: inline; */
-      margin-top: -10%;
-    }
-  
-    .boltIcon {
-      background-color: white;
-      width: 14%;
-      border-radius: 50%;
-      padding: 4px;
-      display: inline;
-      margin-left: 35%;
-      box-shadow: inherit;
-      margin-top: -35%;
-    }
-  
-    .orangeSection {
-      background-image: url("./assets/orange-pattern.svg");
-      background-repeat: repeat;
-      background-size: contain, auto;
-      background-position: 90% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 5%;
-    }
-  
-    .institutionalHeader2 {
-      font-size: 25px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 75%;
-      padding: 8%;
-      margin-bottom: 6%;
-    }
-  
-    .institutionalButton {
-      background-color: #ffd900;
-      color: #ee256c;
-      font-size: 16px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 10px;
-      position: absolute;
-      z-index: 30;
-      padding-left: 25px;
-      padding-right: 25px;
-    }
-  
-    .institutionalButton:hover {
-      background-color: #ee256c;
-    }
-  
-    .logosContainer {
-      display: block;
-      justify-content: center;
-      align-items: center;
-      margin-left: 25%;
-    }
-  
-    .boxes {
-      width: 149px;
-      height: 149px;
-      border-radius: 50%;
-      border: 7px solid #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-  
-    .institutionalLogos {
-      width: 60%;
-    }
-  
-    .footerText {
-      color: white;
-      text-align: center;
-      justify-content: center;
-      font-size: 21px;
-      font-weight: 450;
-      margin-left: -80px;
-    }
-  
-    .orangeSection2 {
-      background-image: url("./assets/orange-pattern.svg");
-      background-repeat: repeat;
-      background-size: contain, auto;
-      background-position: 20% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 2%;
-    }
-  
-    .institutionalHeader3 {
-      font-size: 30px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 85%;
-      padding: 6%;
-      text-align: left;
-    }
+
+  .footerTextHeader {
+    font-size: 19px;
+    color: white;
   }
-  
-  @media (min-width: 375px) {
-    .firstContainer {
-      margin-bottom: -17%;
-    }
-  
-    .institutionalHeader1 {
-      font-size: 30px;
-      font-weight: bold;
-      color: white;
-      margin-top: -10%;
-    }
-  
-    .boltIcon {
-      background-color: white;
-      width: 14%;
-      border-radius: 50%;
-      padding: 4px;
-      display: inline;
-      margin-left: 35%;
-      box-shadow: inherit;
-      margin-top: -28%;
-    }
-  
-    .orangeSection {
-      background-image: url("./assets/orange-pattern.svg");
-      background-repeat: repeat;
-      background-size: contain, auto;
-      background-position: 90% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 5%;
-    }
-  
-    .institutionalHeader2 {
-      font-size: 30px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 75%;
-      padding: 8%;
-      margin-bottom: 6%;
-    }
-  
-    .institutionalButton {
-      background-color: #ffd900;
-      color: #ee256c;
-      font-size: 20px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 10px;
-      position: absolute;
-      z-index: 30;
-      padding-left: 25px;
-      padding-right: 25px;
-    }
-  
-    .institutionalButton:hover {
-      background-color: #ee256c;
-    }
-  
-    .logosContainer {
-      display: block;
-      justify-content: center;
-      align-items: center;
-      margin-left: 30%;
-    }
-  
-    .boxes {
-      width: 149px;
-      height: 149px;
-      border-radius: 50%;
-      border: 7px solid #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-  
-    .institutionalLogos {
-      width: 60%;
-    }
-  
-    .footerText {
-      color: white;
-      text-align: center;
-      justify-content: center;
-      font-size: 21px;
-      font-weight: 450;
-      margin-left: -90px;
-    }
-  
-    .orangeSection2 {
-      background-image: url("./assets/orange-pattern.svg");
-      background-repeat: repeat;
-      background-size: contain, auto;
-      background-position: 20% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 2%;
-    }
-  
-    .institutionalHeader3 {
-      font-size: 34px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 85%;
-      padding: 6%;
-      text-align: left;
-    }
+
+  #footerSocialMedia {
+    text-decoration: none;
+    margin-bottom: 1%;
+    font-size: xx-large;
+    color: white;
+    margin-top: 1%;
   }
-  
-  @media (min-width: 412px) {
-    .firstContainer {
-      margin-bottom: -9%;
-    }
-  
-    .institutionalHeader1 {
-      font-size: 30px;
-      font-weight: bold;
-      color: white;
-      margin-top: -10%;
-      margin-left: 2%;
-    }
-  
-    .boltIcon {
-      background-color: white;
-      width: 10%;
-      border-radius: 50%;
-      padding: 4px;
-      display: inline;
-      margin-left: 45%;
-      box-shadow: inherit;
-      margin-top: -1%;
-    }
-  
-    .orangeSection {
-      background-image: url("./assets/orange-pattern.svg");
-      background-repeat: repeat;
-      background-size: contain, auto;
-      background-position: 90% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 5%;
-    }
-  
-    .institutionalHeader2 {
-      font-size: 30px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 75%;
-      padding: 8%;
-      margin-bottom: 6%;
-    }
-  
-    .institutionalButton {
-      background-color: #ffd900;
-      color: #ee256c;
-      font-size: 20px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 10px;
-      position: absolute;
-      z-index: 30;
-      padding-left: 25px;
-      padding-right: 25px;
-    }
-  
-    .institutionalButton:hover {
-      background-color: #ee256c;
-    }
-  
-    .logosContainer {
-      display: block;
-      justify-content: center;
-      align-items: center;
-      margin-left: 32%;
-    }
-  
-    .boxes {
-      width: 149px;
-      height: 149px;
-      border-radius: 50%;
-      border: 7px solid #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-  
-    .institutionalLogos {
-      width: 60%;
-    }
-  
-    .footerText {
-      color: white;
-      text-align: center;
-      justify-content: center;
-      font-size: 21px;
-      font-weight: 450;
-      margin-left: -110px;
-    }
-  
-    .orangeSection2 {
-      background-image: url("./assets/orange-pattern.svg");
-      background-repeat: repeat;
-      background-size: contain, auto;
-      background-position: 20% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 2%;
-    }
-  
-    .institutionalHeader3 {
-      font-size: 34px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 85%;
-      padding: 6%;
-      text-align: left;
-    }
+
+  .footerLink {
+    text-decoration: none;
+    color: #ffd900;
   }
-  
-  @media (min-width: 425px) {
-    .firstContainer {
-      margin-bottom: -7%;
-    }
-  
-    .institutionalHeader1 {
-      font-size: 31px;
-      font-weight: bold;
-      color: white;
-      margin-top: -10%;
-      margin-left: 2%;
-    }
-  
-    .boltIcon {
-      background-color: white;
-      width: 10%;
-      border-radius: 50%;
-      padding: 4px;
-      display: inline;
-      margin-left: 45%;
-      box-shadow: inherit;
-      margin-top: -1%;
-    }
-  
-    .orangeSection {
-      background-image: url("./assets/orange-pattern.svg");
-      background-repeat: repeat;
-      background-size: contain, auto;
-      background-position: 90% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 5%;
-    }
-  
-    .institutionalHeader2 {
-      font-size: 35px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 75%;
-      padding: 6%;
-      margin-bottom: 6%;
-    }
-  
-    .institutionalButton {
-      background-color: #ffd900;
-      color: #ee256c;
-      font-size: 24px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 10px;
-      position: absolute;
-      z-index: 30;
-      padding-left: 25px;
-      padding-right: 25px;
-    }
-  
-    .institutionalButton:hover {
-      background-color: #ee256c;
-    }
-  
-    .logosContainer {
-      display: block;
-      justify-content: center;
-      align-items: center;
-      margin-left: 30%;
-    }
-  
-    .boxes {
-      width: 149px;
-      height: 149px;
-      border-radius: 50%;
-      border: 7px solid #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-  
-    .institutionalLogos {
-      width: 60%;
-    }
-  
-    .footerText {
-      color: white;
-      text-align: center;
-      justify-content: center;
-      font-size: 21px;
-      font-weight: 450;
-      margin-left: -130px;
-    }
-  
-    .orangeSection2 {
-      background-image: url("./assets/orange-pattern.svg");
-      background-repeat: repeat;
-      background-size: contain, auto;
-      background-position: 20% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 2%;
-    }
-  
-    .institutionalHeader3 {
-      font-size: 40px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 85%;
-      padding: 6%;
-      text-align: left;
-    }
+}
+
+@media (min-width: 768px) {
+  .footerLogo {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 1%;
+    margin-left: 6%;
   }
-  
-  @media (min-width: 768px) {
-    .institutionalHeader1 {
-      font-size: 45px;
-      font-weight: bold;
-      color: white;
-      padding: 3%;
-      /* display: inline; */
-      margin-top: -6%;
-    }
-  
-    .boltIcon {
-      background-color: white;
-      border-radius: 50%;
-      padding: 15px;
-      display: inline;
-      margin-left: 85%;
-      margin-top: -22%;
-      box-shadow: inherit;
-    }
-  
-    .orangeSection {
-      background-image: url("./assets/orange-pattern.svg");
-      background-repeat: repeat;
-      background-size: contain, auto;
-      background-position: 90% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 5%;
-    }
-  
-    .institutionalHeader2 {
-      font-size: 50px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 75%;
-      padding: 6%;
-      margin-bottom: 6%;
-    }
-  
-    .institutionalButton {
-      background-color: #ffd900;
-      color: #ee256c;
-      font-size: 26px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 10px;
-      position: absolute;
-      z-index: 30;
-      padding-left: 45px;
-      padding-right: 45px;
-    }
-  
-    .institutionalButton:hover {
-      background-color: #ee256c;
-    }
-  
-    .logosContainer {
-      justify-content: center;
-      align-items: center;
-      margin-left: 40%;
-    }
-  
-    .boxes {
-      width: 149px;
-      height: 149px;
-      border-radius: 50%;
-      border: 7px solid #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-  
-    .institutionalLogos {
-      width: 70%;
-    }
-  
-    .footerText {
-      color: white;
-      text-align: center;
-      justify-content: center;
-      font-size: 27px;
-      font-weight: 450;
-      margin-left: -300px;
-    }
-  
-    .orangeSection2 {
-      background-image: url("./assets/guys.png"), url("./assets/orange-pattern.svg");
-      background-repeat: no-repeat, repeat;
-      background-size: contain, auto;
-      background-position: 90% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 5%;
-    }
-  
-    .institutionalHeader3 {
-      font-size: 45px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 75%;
-      padding: 6%;
-      text-align: left;
-    }
+
+  .footerDivider {
+    display: none;
   }
-  
-  @media (min-width: 1024px) {
-    .firstContainer {
-      margin-bottom: -3%;
-    }
-  
-    .institutionalHeader1 {
-      font-size: 55px;
-      font-weight: bold;
-      color: white;
-      padding: 3%;
-      margin-top: -3%;
-    }
-  
-    .boltIcon {
-      background-color: white;
-      border-radius: 50%;
-      padding: 15px;
-      display: inline;
-      margin-left: 70%;
-      margin-top: -14%;
-      box-shadow: inherit;
-    }
-  
-    .orangeSection {
-      background-image: url("./assets/bikegirl.png"),
-        url("./assets/orange-pattern.svg");
-      background-repeat: no-repeat, repeat;
-      background-size: contain, auto;
-      background-position: 90% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 1%;
-    }
-  
-    .institutionalHeader2 {
-      font-size: 55px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 40%;
-      padding: 2%;
-      text-align: right;
-    }
-  
-    .institutionalButton {
-      background-color: #ffd900;
-      color: #ee256c;
-      font-size: 26px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 10px;
-      position: absolute;
-      z-index: 30;
-      padding-left: 45px;
-      padding-right: 45px;
-      margin-left: -20%;
-    }
-  
-    .institutionalButton:hover {
-      background-color: #ee256c;
-    }
-  
-    .logosContainer {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .boxes {
-      width: 149px;
-      height: 149px;
-      border-radius: 50%;
-      border: 7px solid #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-  
-    .institutionalLogos {
-      width: 60%;
-    }
-  
-    .footerText {
-      color: white;
-      text-align: center;
-      justify-content: center;
-      font-size: 21px;
-      font-weight: 450;
-    }
-  
-    .orangeSection2 {
-      background-image: url("./assets/guys.png"),
-        url("./assets/orange-pattern.svg");
-      background-repeat: no-repeat, repeat;
-      background-size: contain, auto;
-      background-position: 20% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 2%;
-    }
-  
-    .institutionalHeader3 {
-      font-size: 45px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 23%;
-      padding: 3%;
-      text-align: left;
-      margin-right: 0;
-      margin-left: 70%;
-    }
+
+  .sloganLogo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6%;
   }
-  
-  @media (min-width: 1440px) {
-    .firstContainer {
-      margin-bottom: -1%;
-    }
-  
-    .institutionalHeader1 {
-      font-size: 60px;
-      font-weight: bold;
-      color: white;
-      padding: 1%;
-      margin-top: -2%;
-    }
-  
-    .boltIcon {
-      background-color: white;
-      border-radius: 50%;
-      padding: 15px;
-      display: inline;
-      margin-left: 70%;
-      margin-top: -9%;
-      box-shadow: inherit;
-      width: 5%;
-    }
-  
-    .orangeSection {
-      background-image: url("./assets/bikegirl.png"),
-        url("./assets/orange-pattern.svg");
-      background-repeat: no-repeat, repeat;
-      background-size: contain, auto;
-      background-position: 90% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-    }
-  
-    .institutionalHeader2 {
-      font-size: 65px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 30%;
-      padding: 2%;
-      text-align: right;
-    }
-  
-    .institutionalButton {
-      background-color: #ffd900;
-      color: #ee256c;
-      font-size: 26px;
-      font-weight: bold;
-      border: unset;
-      border-radius: 10px;
-      position: absolute;
-      z-index: 30;
-      padding-left: 45px;
-      padding-right: 45px;
-      margin-left: -14%;
-    }
-  
-    .institutionalButton:hover {
-      background-color: #ee256c;
-    }
-  
-    .logosContainer {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .boxes {
-      width: 149px;
-      height: 149px;
-      border-radius: 50%;
-      border: 7px solid #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-  
-    .institutionalLogos {
-      width: 60%;
-    }
-  
-    .footerText {
-      color: white;
-      text-align: center;
-      justify-content: center;
-      font-size: 21px;
-      font-weight: 450;
-    }
-  
-    .orangeSection2 {
-      background-image: url("./assets/guys.png"),
-        url("./assets/orange-pattern.svg");
-      background-repeat: no-repeat, repeat;
-      background-size: contain, auto;
-      background-position: 20% calc(100% + 25px), 0 0;
-      background-color: #f15a22;
-      padding-bottom: 2%;
-    }
-  
-    .institutionalHeader3 {
-      font-size: 65px;
-      font-weight: bold;
-      line-height: 130%;
-      color: white;
-      width: 30%;
-      padding: 3%;
-      text-align: left;
-      margin-right: 0;
-      margin-left: 70%;
-    }
+
+  .footerTextHeader {
+    font-size: 15px;
+    color: white;
+    margin-top: 4%;
   }
+
+  #footerSocialMedia {
+    text-decoration: none;
+    margin-bottom: 1%;
+    font-size: x-large;
+    color: white;
+    margin-top: 1%;
+  }
+
+  .footerLink {
+    text-decoration: none;
+    color: #ffd900;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footerLogo {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 1%;
+    margin-left: 6%;
+  }
+
+  .footerDivider {
+    display: none;
+  }
+
+  .sloganLogo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6%;
+  }
+
+  .footerTextHeader {
+    font-size: 20px;
+    color: white;
+    margin-top: 4%;
+  }
+
+  #footerSocialMedia {
+    text-decoration: none;
+    margin-bottom: 1%;
+    font-size: xx-large;
+    color: white;
+    margin-top: 1%;
+  }
+
+  .footerLink {
+    text-decoration: none;
+    color: #ffd900;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footerLogo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 1%;
+    margin-left: 6%;
+    margin-top: 6%;
+  }
+
+  .footerDivider {
+    display: none;
+  }
+
+  .sloganLogo {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    margin-left: -37%;
+    margin-bottom: 6%;
+  }
+
+  .footerTextHeader {
+    font-size: 22px;
+    color: white;
+    margin-top: 4%;
+  }
+
+  #footerSocialMedia {
+    text-decoration: none;
+    margin-bottom: 1%;
+    font-size: xx-large;
+    color: white;
+    margin-top: 1%;
+  }
+
+  .footerLink {
+    text-decoration: none;
+    color: #ffd900;
+    font-size: 16px;
+  }
+}
+
+/* --------------- appointmentPage --------------- */
+
+.apoointmentContainer {
+  background-image: url("../src/assets/apointmentBackground2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.apoointmentHeader {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0.25px 0.25px 6px black;
+  font-size: xx-large;
+  margin-bottom: 2%;
+}
+.apoointmentSubHeader {
+  font-weight: bold;
+  font-size: large;
+}
+
+.coso {
+  background-color: #2e4d6ba1;
+}
+
+.inputText {
+  color: white;
+
+  margin-top: 1%;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: #ffd900;
+  font-size: 15px;
+}
+
+@media (min-width: 1440px) {
+  .footerLogo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 1%;
+    margin-left: 6%;
+    margin-top: 6%;
+  }
+
+  .footerDivider {
+    display: none;
+  }
+
+  .sloganLogo {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    margin-left: -37%;
+    margin-bottom: 6%;
+  }
+
+  .footerTextHeader {
+    font-size: 22px;
+    color: white;
+    margin-top: 4%;
+  }
+
+  #footerSocialMedia {
+    text-decoration: none;
+    margin-bottom: 1%;
+    font-size: xx-large;
+    color: white;
+    margin-top: 1%;
+  }
+
+  .footerLink {
+    text-decoration: none;
+    color: #ffd900;
+    font-size: 16px;
+  }
+}
+
+/* --------------- appointmentPage --------------- */
+
+.apoointmentContainer {
+  background-image: url("../src/assets/apointmentBackground2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.apoointmentHeader {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0.25px 0.25px 6px black;
+  font-size: xx-large;
+  margin-bottom: 2%;
+}
+.apoointmentSubHeader {
+  font-weight: bold;
+  font-size: large;
+}
+
+.coso {
+  background-color: #2e4d6ba1;
+}
+
+.inputText {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0.25px 0.25px 4px black;
+}
+
+/* --- Validacion de inputs --- */
+input:invalid {
+  border: 2px solid yellow;
+}
+
+textArea:invalid {
+  border: 2px solid yellow;
+}
+
+select:invalid {
+  color: yellow;
+}
