@@ -1,5 +1,8 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import logo from '../assets/pngLogin/biceps.svg'
+
+
 const LoginComponent = () => {
   return (
     <div id="formBody">
@@ -56,14 +59,14 @@ const LoginComponent = () => {
 
               </div>
               <div className="d-flex justify-content-center mt-3 loginContainer">
-                <button
+                <Button
                   type="submit"
                   id="loginButton"
                   name="loginButton"
                   // onClick="login()"
                 >
                   <a>INGRESAR</a>
-                </button>
+                </Button>
               </div>
             </form>
           </div>
@@ -78,7 +81,7 @@ const LoginComponent = () => {
             </div>
             <div className="d-flex justify-content-center links">
               <a
-                href="../index.html"
+                href=""
                 className="ml-2"
                 id="backToHome"
                 name="backToHome"
