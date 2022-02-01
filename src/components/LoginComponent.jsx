@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import logo from '../assets/pngLogin/biceps.svg'
 
 
@@ -74,19 +75,19 @@ const LoginComponent = () => {
           <div className="mt-0">
             <div className="d-flex justify-content-center links">
               ¿No tienes cuenta?
-              <a href="../register/register.html" className="ml-2">Regístrate</a>
+              <Link to="/register"><a className="ml-2">Regístrate</a></Link>
             </div>
             <div className="d-flex justify-content-center links">
               <a href="#">¿Olvidaste tu contraseña?</a>
             </div>
             <div className="d-flex justify-content-center links">
-              <a
+              <Link to="/"><a
                 href=""
                 className="ml-2"
                 id="backToHome"
                 name="backToHome"
                 >VOLVER A INICIO</a
-              >
+              ></Link>
             </div>
           </div>
         </div>
