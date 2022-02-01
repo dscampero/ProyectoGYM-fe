@@ -6,6 +6,7 @@ import LoginScreen from '../pages/LoginScreen'
 import LessonsScreen from '../pages/LessonsScreen'
 import AppointmentScreen from '../pages/AppointmentScreen'
 import InstitutionalScreen from '../pages/InstitutionalScreen'
+import RegisterComponent from '../components/RegisterComponent'
 
 const AppRoutes = () => {
     return (
@@ -15,6 +16,7 @@ const AppRoutes = () => {
             <Route exact path="/login" component={LoginScreen}/>
             <Route exact path="/turnos"component={AppointmentScreen}/>
             <Route exact path="/nosotros"component={InstitutionalScreen}/>
+            <Route exact path="/register" component={RegisterComponent}/>
         </Router>
     )
 }
