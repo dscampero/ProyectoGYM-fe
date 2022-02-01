@@ -150,6 +150,8 @@
   border-color: #05b8b2;
   color: #05b8b2;
 }
+
+
 /* -----------Login Screen----------- */
 
 .formContainer {
@@ -253,23 +255,33 @@
   font-weight: bold;
   color: white;
 }
+
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   #formBody {
     background-image: url("./helpers/images_login/backgroundloginphone.jpg");
     height: 529px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 900px) {
   #formBody {
     background-image: url("./helpers/images_login/backgroundlogin.png");
     height: 564px;
   }
 }
+
 @media only screen and (min-width: 901px) and (max-width: 1440px) {
   #formBody {
     background-image: url("./helpers/images_login/backgroundlogin.png");
     height: 625px;
   }
+}
+
+  @media only screen and (min-width: 1440px) {
+    #formBody {
+      background-image: url("./helpers/images_login/backgroundlogin.png");
+      height: 937px;
+    }
 }
 
 /* --------------- HomeNavbar --------------- */
@@ -1125,6 +1137,7 @@
     width: 80%;
     margin-bottom: 1%;
     margin-left: 6%;
+    margin-top: 6%;
   }
 
   .footerDivider {
@@ -1168,9 +1181,10 @@
   .footerLogo {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 60%;
     margin-bottom: 1%;
-    margin-left: 6%;
+    margin-left: 18%;
+    margin-top: 5%;
   }
 
   .footerDivider {
@@ -1269,6 +1283,7 @@
   font-size: xx-large;
   margin-bottom: 2%;
 }
+
 .apoointmentSubHeader {
   font-weight: bold;
   font-size: large;
@@ -1286,6 +1301,7 @@
 }
 
 /* ---------- Validacion de inputs ---------- */
+
 input:invalid {
   border: 2px solid yellow;
 }
@@ -1912,8 +1928,9 @@ select:invalid {
 
   .logosContainer {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    margin-left: 7%;
+    margin-right: 7%;
   }
 
   .boxes {
@@ -1937,6 +1954,7 @@ select:invalid {
     justify-content: center;
     font-size: 21px;
     font-weight: 450;
+    margin-left: -20%;
   }
 
   .orangeSection2 {
@@ -2025,8 +2043,9 @@ select:invalid {
 
   .logosContainer {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    margin-left: 7%;
+    margin-right: 7%;
   }
 
   .boxes {
@@ -2050,6 +2069,7 @@ select:invalid {
     justify-content: center;
     font-size: 21px;
     font-weight: 450;
+    margin-left: -20%;
   }
 
   .orangeSection2 {
@@ -2073,4 +2093,140 @@ select:invalid {
     margin-right: 0;
     margin-left: 70%;
   }
+}
+
+
+/* --------- HomeCarousel --------- */
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .CarouselTextbox {
+    display: none;
+  }
+  
+  .carouselPhoto {
+    height: 310px;
+    width: 400%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .CarouselTextbox {
+  z-index: 30;
+  font-size: xx-large;
+  position: absolute;
+  width: 25%;
+  height: 58%;
+  background-color: #10c3d9;
+  float: right;
+  text-align: left;
+  margin-left: 75%;
+  margin-top: 8%;
+  border-radius: 25px 0px 0px 25px;
+  box-shadow:initial;
+  padding: 1%;
+}
+
+.descriptionHeader {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  margin-top: 10px;
+  margin-left: 7%;
+}
+
+.descriptionTitle {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin-top: 15px;
+  margin-left: 7%;
+}
+
+.descriptionBody {
+display: none
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+.CarouselTextbox {
+  z-index: 30;
+  font-size: xx-large;
+  position: absolute;
+  width: 25%;
+  height: 58%;
+  background-color: #10c3d9;
+  float: right;
+  text-align: left;
+  margin-left: 75%;
+  margin-top: 8%;
+  border-radius: 25px 0px 0px 25px;
+  box-shadow:initial;
+  padding: 1%;
+}
+
+.descriptionHeader {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  margin-top: 15px;
+  margin-left: 3%;
+}
+
+.descriptionTitle {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin-top: 15px;
+  margin-left: 3%;
+}
+
+.descriptionBody {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  margin-top: 5px;
+  margin-left: 3%;
+}  
+}
+
+@media only screen and (min-width: 1040px) {
+  .CarouselTextbox {
+    z-index: 30;
+    font-size: xx-large;
+    position: absolute;
+    width: 25%;
+    height: 58%;
+    background-color: #10c3d9;
+    float: right;
+    text-align: left;
+    margin-left: 75%;
+    margin-top: 8%;
+    border-radius: 25px 0px 0px 25px;
+    box-shadow:initial;
+    padding: 1%;
+  }
+  
+  .descriptionHeader {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    margin-top: 15px;
+    margin-left: 3%;
+  }
+  
+  .descriptionTitle {
+    font-size: 39px;
+    font-weight: 700;
+    color: white;
+    margin-top: 15px;
+    margin-left: 3%;
+  }
+  
+  .descriptionBody {
+    font-size: 19px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 3%;
+  }
+
 }

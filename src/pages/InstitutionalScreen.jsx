@@ -37,7 +37,7 @@ const InstitutionalScreen = () => {
         className="container-fluid py-5"
         style={{ backgroundColor: "#10c3d9" }}
       >
-        <div className=" logosContainer">
+        <div className="logosContainer">
           <InstitutionalLogos logo={TreadMill} footerText="El mejor equipamiento" />
           <InstitutionalLogos logo={Kettlebell} footerText="Clases todos los días" />
           <InstitutionalLogos logo={Wink} footerText="Buena onda y energía" />
