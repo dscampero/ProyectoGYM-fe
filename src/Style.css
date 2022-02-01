@@ -150,6 +150,8 @@
   border-color: #05b8b2;
   color: #05b8b2;
 }
+
+
 /* -----------Login Screen----------- */
 
 .formContainer {
@@ -253,23 +255,33 @@
   font-weight: bold;
   color: white;
 }
+
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   #formBody {
     background-image: url("./helpers/images_login/backgroundloginphone.jpg");
     height: 529px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 900px) {
   #formBody {
     background-image: url("./helpers/images_login/backgroundlogin.png");
     height: 564px;
   }
 }
+
 @media only screen and (min-width: 901px) and (max-width: 1440px) {
   #formBody {
     background-image: url("./helpers/images_login/backgroundlogin.png");
     height: 625px;
   }
+}
+
+  @media only screen and (min-width: 1440px) {
+    #formBody {
+      background-image: url("./helpers/images_login/backgroundlogin.png");
+      height: 937px;
+    }
 }
 
 /* --------------- HomeNavbar --------------- */
@@ -1168,9 +1180,10 @@
   .footerLogo {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 60%;
     margin-bottom: 1%;
-    margin-left: 6%;
+    margin-left: 18%;
+    margin-top: 5%;
   }
 
   .footerDivider {
@@ -1269,6 +1282,7 @@
   font-size: xx-large;
   margin-bottom: 2%;
 }
+
 .apoointmentSubHeader {
   font-weight: bold;
   font-size: large;
@@ -1286,6 +1300,7 @@
 }
 
 /* ---------- Validacion de inputs ---------- */
+
 input:invalid {
   border: 2px solid yellow;
 }
@@ -1912,8 +1927,9 @@ select:invalid {
 
   .logosContainer {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    margin-left: 7%;
+    margin-right: 7%;
   }
 
   .boxes {
@@ -1937,6 +1953,7 @@ select:invalid {
     justify-content: center;
     font-size: 21px;
     font-weight: 450;
+    margin-left: -20%;
   }
 
   .orangeSection2 {
@@ -2025,8 +2042,9 @@ select:invalid {
 
   .logosContainer {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    margin-left: 7%;
+    margin-right: 7%;
   }
 
   .boxes {
@@ -2050,6 +2068,7 @@ select:invalid {
     justify-content: center;
     font-size: 21px;
     font-weight: 450;
+    margin-left: -20%;
   }
 
   .orangeSection2 {
