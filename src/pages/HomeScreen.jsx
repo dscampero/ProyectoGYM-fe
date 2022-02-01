@@ -2,6 +2,7 @@ import React from 'react';
 import HomeNavbar from '../components/HomeNavbar';
 import HomePromoBanner from '../components/HomePromoBanner';
 import HomeTurnBanner from '../components/HomeTurnBanner';
+import HomeCarousel from '../components/HomeCarousel'
 import Footer from '../components/Footer';
 
 const HomeScreen = () => {
@@ -9,6 +10,7 @@ const HomeScreen = () => {
     <HomeNavbar/>
       <HomePromoBanner />
       <HomeTurnBanner/>
+      <HomeCarousel/>
       <Footer/>
   </div>;
 };

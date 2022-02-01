@@ -1137,6 +1137,7 @@
     width: 80%;
     margin-bottom: 1%;
     margin-left: 6%;
+    margin-top: 6%;
   }
 
   .footerDivider {
@@ -2092,4 +2093,140 @@ select:invalid {
     margin-right: 0;
     margin-left: 70%;
   }
+}
+
+
+/* --------- HomeCarousel --------- */
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .CarouselTextbox {
+    display: none;
+  }
+  
+  .carouselPhoto {
+    height: 310px;
+    width: 400%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .CarouselTextbox {
+  z-index: 30;
+  font-size: xx-large;
+  position: absolute;
+  width: 25%;
+  height: 58%;
+  background-color: #10c3d9;
+  float: right;
+  text-align: left;
+  margin-left: 75%;
+  margin-top: 8%;
+  border-radius: 25px 0px 0px 25px;
+  box-shadow:initial;
+  padding: 1%;
+}
+
+.descriptionHeader {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  margin-top: 10px;
+  margin-left: 7%;
+}
+
+.descriptionTitle {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin-top: 15px;
+  margin-left: 7%;
+}
+
+.descriptionBody {
+display: none
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+.CarouselTextbox {
+  z-index: 30;
+  font-size: xx-large;
+  position: absolute;
+  width: 25%;
+  height: 58%;
+  background-color: #10c3d9;
+  float: right;
+  text-align: left;
+  margin-left: 75%;
+  margin-top: 8%;
+  border-radius: 25px 0px 0px 25px;
+  box-shadow:initial;
+  padding: 1%;
+}
+
+.descriptionHeader {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  margin-top: 15px;
+  margin-left: 3%;
+}
+
+.descriptionTitle {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin-top: 15px;
+  margin-left: 3%;
+}
+
+.descriptionBody {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  margin-top: 5px;
+  margin-left: 3%;
+}  
+}
+
+@media only screen and (min-width: 1040px) {
+  .CarouselTextbox {
+    z-index: 30;
+    font-size: xx-large;
+    position: absolute;
+    width: 25%;
+    height: 58%;
+    background-color: #10c3d9;
+    float: right;
+    text-align: left;
+    margin-left: 75%;
+    margin-top: 8%;
+    border-radius: 25px 0px 0px 25px;
+    box-shadow:initial;
+    padding: 1%;
+  }
+  
+  .descriptionHeader {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    margin-top: 15px;
+    margin-left: 3%;
+  }
+  
+  .descriptionTitle {
+    font-size: 39px;
+    font-weight: 700;
+    color: white;
+    margin-top: 15px;
+    margin-left: 3%;
+  }
+  
+  .descriptionBody {
+    font-size: 19px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 3%;
+  }
+
 }
