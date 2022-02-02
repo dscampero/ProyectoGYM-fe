@@ -59,14 +59,14 @@ const LoginComponent = () => {
               <div className="form-group">
 
               </div>
-              <div className="d-flex justify-content-center mt-3 loginContainer">
+              <div className="d-flex justify-content-center mt-3 loginContainerRegister">
                 <Button
                   type="submit"
                   id="loginButton"
                   name="loginButton"
                   // onClick="login()"
                 >
-                  <div>INGRESAR</div>
+                   <Link to="/register" className="buttonregylog">Ingresar</Link>
                 </Button>
               </div>
             </form>
@@ -75,10 +75,10 @@ const LoginComponent = () => {
           <div className="mt-0">
             <div className="d-flex justify-content-center links">
               ¿No tienes cuenta?
-              <Link to="/register" className="ml-2">Regístrate</Link>
+              <Link to="/register" className="ml-2 linkreg">Regístrate</Link>
             </div>
             <div className="d-flex justify-content-center links">
-              <Link to="#">¿Olvidaste tu contraseña?</Link>
+              <Link to="#" className="linkreg">¿Olvidaste tu contraseña?</Link>
             </div>
             <div className="d-flex justify-content-center links">
             <Link

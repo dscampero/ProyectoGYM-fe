@@ -141,14 +141,14 @@ const RegisterComponent = () => {
               </div>
               <div className="form-group">
               </div>
-              <div className="d-flex justify-content-center mt-3 loginContainerRegister">
+              <div className="d-flex justify-content-center mt-3 loginContainerRegister ">
                 <Button
                   type="submit"
                   id="loginButton"
                   name="loginButton"
                   // onClick="login()"
                 >
-                  <Link to="/register">Registrarse</Link>
+                  <Link to="/register" className="buttonregylog">Registrarse</Link>
                 </Button>
               </div>
             </form>
@@ -159,7 +159,7 @@ const RegisterComponent = () => {
               
             </div>
             <div className="d-flex justify-content-center links">
-             <Link to="/login"> Inicia sesión</Link>
+             <Link to="/login" className="linkreg"> Inicia sesión</Link>
             </div>
             <div className="d-flex justify-content-center links">
               <Link to="/"  className="ml-2"

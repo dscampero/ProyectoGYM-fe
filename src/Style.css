@@ -2292,3 +2292,10 @@ display: none
   }
 
 }
+.linkreg{
+  color:#ffd900;
+  font-weight: bold;
+}
+.buttonregylog{
+  text-decoration:none;
+}
