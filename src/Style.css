@@ -2290,5 +2290,57 @@ display: none
   .loginLogoContainerRegister{
     display: none;
   }
+}
 
+/*---------- Every Users Pages --------- */
+
+.usersPagesHeader {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3b3b3b;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+}
+
+.usersPageSubTitle {
+  font-style: italic;
+}
+
+.usersContainer {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.scrollTable {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.usersScrollTable {
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.usersIcons {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.adminContainer {
+  background-image: url('/src//assets/pagesBackground.png');
+  height: 1069px;
+  background-size: cover;
+}
+
+.lessonsSelect {
+  width: 25%;
+  font-style: italic;
+  border-radius: 15px;
+}
+
+.tableContainerCard {
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
