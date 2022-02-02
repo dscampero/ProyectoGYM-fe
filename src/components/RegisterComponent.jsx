@@ -148,7 +148,7 @@ const RegisterComponent = () => {
                   name="loginButton"
                   // onClick="login()"
                 >
-                  <a>Registrarse</a>
+                  <Link to="/register">Registrarse</Link>
                 </Button>
               </div>
             </form>
@@ -159,15 +159,13 @@ const RegisterComponent = () => {
               
             </div>
             <div className="d-flex justify-content-center links">
-             <Link to="/login"> <a>Inicia sesión</a></Link>
+             <Link to="/login"> Inicia sesión</Link>
             </div>
             <div className="d-flex justify-content-center links">
-              <Link to="/"><a
-                href=""
-                className="ml-2"
+              <Link to="/"  className="ml-2"
                 id="backToHome"
-                name="backToHome"
-                >VOLVER A INICIO</a>
+                name="backToHome">
+               VOLVER A INICIO
                 </Link>
             </div>
           </div>

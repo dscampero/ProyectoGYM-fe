@@ -66,7 +66,7 @@ const LoginComponent = () => {
                   name="loginButton"
                   // onClick="login()"
                 >
-                  <a>INGRESAR</a>
+                  <div>INGRESAR</div>
                 </Button>
               </div>
             </form>
@@ -75,19 +75,18 @@ const LoginComponent = () => {
           <div className="mt-0">
             <div className="d-flex justify-content-center links">
               ¿No tienes cuenta?
-              <Link to="/register"><a className="ml-2">Regístrate</a></Link>
+              <Link to="/register" className="ml-2">Regístrate</Link>
             </div>
             <div className="d-flex justify-content-center links">
-              <a href="#">¿Olvidaste tu contraseña?</a>
+              <Link to="#">¿Olvidaste tu contraseña?</Link>
             </div>
             <div className="d-flex justify-content-center links">
-              <Link to="/"><a
-                href=""
+            <Link
+                to="/"
                 className="ml-2"
                 id="backToHome"
                 name="backToHome"
-                >VOLVER A INICIO</a
-              ></Link>
+                >VOLVER A INICIO</Link>
             </div>
           </div>
         </div>
