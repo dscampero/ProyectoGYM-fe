@@ -2295,6 +2295,10 @@ display: none
 .linkreg{
   color:#ffd900;
   font-weight: bold;
+  text-decoration:none;
+}
+.linkreg:hover{
+  color:#ee256c;
 }
 .buttonregylog{
   text-decoration:none;
