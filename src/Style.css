@@ -2344,3 +2344,14 @@ display: none
 .tableContainerCard {
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.linkreg{
+  color:#ffd900;
+  font-weight: bold;
+  text-decoration:none;
+}
+.linkreg:hover{
+  color:#ee256c;
+}
+.buttonregylog{
+  text-decoration:none;
+}
