@@ -61,7 +61,7 @@ const RegisterComponent = () => {
                 <input
                   type="tel"
                   className="form-control input_user"
-                  placeholder="Telefono"
+                  placeholder="Tel ej: 3813046960"
                   required
 
                   
