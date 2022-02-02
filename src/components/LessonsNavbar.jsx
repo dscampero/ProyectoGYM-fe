@@ -7,6 +7,8 @@ import img5 from '../helpers/images_lessons/colchmorada2.png'
 import img6 from '../helpers/images_lessons/ruedita.png'
 import img7 from '../helpers/images_lessons/colchonetamorada.png'
 import { Button, Card } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import HomeScreen from '../pages/HomeScreen'
 const LessonsNavbar = () => {
     return (
         <div>
@@ -15,7 +17,7 @@ const LessonsNavbar = () => {
             <h1 className="tittle">¡Conocé nuestras clases!</h1>
             </div>
             <div className="col-auto ">
-            <Button className='btn buttonschedule buttonscheduletittle' href="https://www.google.com.ar/"> ¡Ver Horarios!</Button>
+            <Link to="/login"> <Button className='btn buttonschedule buttonscheduletittle'>¡Ver Horarios!</Button></Link>
             </div>
             </div>
             <div className="btn-group d-sm-block  d-1 pt-3" role="group" aria-label="Basic example">

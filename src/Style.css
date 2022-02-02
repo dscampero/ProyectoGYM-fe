@@ -259,7 +259,7 @@
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   #formBody {
     background-image: url("./helpers/images_login/backgroundloginphone.jpg");
-    height: 529px;
+    height: 553px;
   }
 }
 
@@ -2229,4 +2229,77 @@ display: none
     margin-left: 3%;
   }
 
+}
+
+/* Register */
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.contenedor>div{
+  width:50%;
+  padding: 2px;
+}
+.userLoginCardRegister {
+  height: 500px;
+  width: 450px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #2e4d6ba1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  font-weight: 400;
+  color: white;
+}
+.loginLogoContainerRegister {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: -55px;
+  border-radius: 50%;
+  background-color: #10c3d9;
+  padding: 10px;
+  text-align: center;
+}
+.loginLogoRegister {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.formContainerRegister {
+  margin-top: 100px;
+}
+
+.loginContainerRegister {
+  padding: 0 2rem;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1023px) {
+  .loginLogoContainerRegister{
+    display: none;
+  }
+
+}
+.linkreg{
+  color:#ffd900;
+  font-weight: bold;
+  text-decoration:none;
+}
+.linkreg:hover{
+  color:#ee256c;
+}
+.buttonregylog{
+  text-decoration:none;
 }

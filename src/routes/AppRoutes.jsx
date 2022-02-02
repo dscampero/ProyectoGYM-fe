@@ -2,19 +2,21 @@
 import React from 'react'
 import {BrowserRouter as Router,Route} from 'react-router-dom'
 import HomeScreen from '../pages/HomeScreen'
-import LoginComponent from '../components/LoginComponent'
+import LoginScreen from '../pages/LoginScreen'
 import LessonsScreen from '../pages/LessonsScreen'
 import AppointmentScreen from '../pages/AppointmentScreen'
 import InstitutionalScreen from '../pages/InstitutionalScreen'
+import RegisterScreen from '../pages/RegisterScreen'
 
 const AppRoutes = () => {
     return (
         <Router>
             <Route exact path="/" component={HomeScreen}/>
             <Route exact path="/clases"component={LessonsScreen}/>
-            <Route exact path="/login" component={LoginComponent}/>
+            <Route exact path="/login" component={LoginScreen}/>
             <Route exact path="/turnos"component={AppointmentScreen}/>
             <Route exact path="/nosotros"component={InstitutionalScreen}/>
+            <Route exact path="/register" component={RegisterScreen}/>
         </Router>
     )
 }
