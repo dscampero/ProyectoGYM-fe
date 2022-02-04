@@ -11,7 +11,8 @@ import UsersAdminScreen from '../pages/adminPage/UsersAdminScreen'
 import InstructorsAdminScreen from '../pages/adminPage/InstructorsAdminScreen'
 import AlumnsAdminScreen from '../pages/adminPage/AlumnsAdminScreen'
 import QueriesAdminScreen from '../pages/adminPage/QueriesAdminScreen'
-
+import InstructorsScreen from '../pages/insctructor/InstructorsScreen'
+import RoutinesScreen from '../pages/insctructor/RoutinesScreen';
 const AppRoutes = () => {
     return (
         <Router>
@@ -25,6 +26,8 @@ const AppRoutes = () => {
             <Route exact path="/admin/instructores" component={InstructorsAdminScreen}/>
             <Route exact path="/admin/alumnos" component={AlumnsAdminScreen}/>
             <Route exact path="/admin/consultas"component={QueriesAdminScreen}/>
+            <Route exact path="/instructores/clases"component={InstructorsScreen}/>
+            <Route exact path="/instructores/rutinas"component={RoutinesScreen}/>
         </Router>
     )
 }
