@@ -7,7 +7,7 @@ const InstructorsScreen = () => {
   <InstructorNavbar/>
   <h2 className="usersPagesHeader">MIS CLASES</h2>
    <InstructorTable/> 
-   <Footer></Footer>
+   <Footer/>
   </>;
 };
 
