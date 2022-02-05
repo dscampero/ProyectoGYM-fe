@@ -23,37 +23,37 @@ const durationData = [
   {
     name: "Lucas Medina",
     time: "2 meses",
-    clase: "Funcional",
+    routine: "Rutina.pdf",
   },
   {
     name: "Juán López",
     time: "2 meses",
-    clase: "Aeróbico",
+    routine: "Rutina.pdf",
   },
   {
     name: "Mariana Mohedano",
     time: "1 mes",
-    clase: "Aeró Combat",
+    routine: "Rutina.pdf",
   },
   {
     name: "Julieta Díaz",
     time: "1 mes",
-    clase: "Aero Local",
+    routine: "Rutina.pdf",
   },
   {
     name: "Marcos Peña",
     time: "3 meses",
-    clase: "Ritmos",
+    routine: "Rutina.pdf",
   },
   {
     name: "Juliana Páez",
     time: "2 meses",
-    clase: "Funcional",
+    routine: "Rutina.pdf",
   },
   {
     name: "Lucas Castro",
     time: "1 mes",
-    clase: "Aerobico",
+    routine: "Rutina.pdf",
   },
 ];
 
@@ -64,7 +64,7 @@ const RutinesTable = () => {
       <Card className="tableContainerCard" style={{ marginBottom: "4%" }}>
         <Card.Body>
           <h6 style={{ marginBottom: "1%" }}>
-          En la siguiente tabla podrá ver los datos de las clases que le fueron asignadas.
+          En la siguiente sección podrá subir la rutinas a los alumnos/alumnas.
           </h6>
           <div style={{ display: "flex", marginBottom: "2%" }}>
           <Form.Select className="lessonsSelect me-2">
@@ -103,7 +103,7 @@ const RutinesTable = () => {
                 >
                   <th>ALUMNO</th>
                   <th>DURACION DE RUTINA</th>
-                  <th>TIPO DE CLASE</th>
+                  <th>RUTINA</th>
                 </tr>
               </thead>
               <tbody>
@@ -111,7 +111,7 @@ const RutinesTable = () => {
                   <tr style={{ backgroundColor: "white" }}>
                     <td>{schedule.name}</td>
                     <td>{schedule.time}</td>
-                    <td>{schedule.clase}</td>
+                    <td>{schedule.routine}</td>
                   </tr>
                 ))}
               </tbody>
