@@ -141,7 +141,7 @@ const FunctionalAlumnsTable = () => {
               <tbody>
                 {schedulesData.map((schedule) => (
                   <tr style={{ backgroundColor: "white" }}>
-                    <td>{schedule.day}</td>
+                    <td>{schedule.name}</td>
                     <td>{schedule.time}</td>
                     <td>{schedule.capacity}</td>
                     <td className="usersIcons">
