@@ -21,13 +21,13 @@ const InstructorNavbar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="">
             <Nav className="me-auto">
-              <Nav.Link  className='me-2' style={{ color: "white" }} href='/admin/usuarios'>
+              <Nav.Link  className='me-2' style={{ color: "white" }} href='/instructores/clases'>
                 MIS CLASES
               </Nav.Link>
-              <Nav.Link className='me-2' style={{ color: "white" }} href="/admin/instructores">
+              <Nav.Link className='me-2' style={{ color: "white" }} href="/instructores/rutinas">
                 RUTINAS
               </Nav.Link>
-              <Nav.Link className='me-2' style={{ color: "white" }} href="/admin/consultas">
+              <Nav.Link className='me-2' style={{ color: "white" }} href="/instructores/consultas">
                 CONSULTAS
               </Nav.Link>
             </Nav>
